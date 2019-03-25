@@ -1,0 +1,15 @@
+
+// Preloader behavior for cognito form
+.preloader {
+  display: none;
+  width: 100%;
+  text-align: center;
+  img {
+    width: 50px;
+  }
+}
+
+/* Override the default invisibility if the preloader doesn't have a form after it. */
+.preloader:last-child {
+  display: block;
+}

@@ -1,0 +1,31 @@
+# Site settings
+title: Arabic Design Tool
+email: dev@ocupop.com
+url: "http://client_url.com"
+permalink: /:title
+
+# Social sharing
+description:
+socialshare:
+  featured_image: assets/img/socialshare.png
+  twitter:
+    username:
+    image:
+
+# Google Analytics
+analytics_code:
+
+# Build settings
+safe: false
+source: src
+
+
+gems:
+  - jekyll-multiple-languages-plugin
+
+
+# Localization
+languages: ["ar", "en", "es"]
+exclude_from_localizations: ["assets", "js"]
+
+placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder

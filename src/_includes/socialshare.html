@@ -1,0 +1,25 @@
+<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta property="og:description" content="{{ page.description | default: site.description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+{% if page.socialshare %}
+<meta property="og:image" content="{{ page.socialshare.featured_image | absolute_url }}" />
+{% else %}
+<meta property="og:image" content="{{ site.socialshare.featured_image | absolute_url }}" />
+{% endif %}
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:site" content="{{ page.socialshare.twitter.handle | default: site.socialshare.twitter.handle }}" />
+ <meta name="twitter:creator" content="{{ page.socialshare.twitter.handle | default: site.socialshare.twitter.handle }}" />
+ <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+ <meta name="twitter:description" content="{{ page.title | default: site.title }}" />
+ <meta name="twitter:text:description" content="{{ page.description | default: site.description }}" />
+ {% if page.socialshare %}
+ <meta name="twitter:image" content="{{ page.socialshare.twitter.image | absolute_url }}" />
+ {% else %}
+ <meta property="og:image" content="{{ site.socialshare.twitter.image | absolute_url }}" />
+ {% endif %}
+ <meta name="twitter:image:alt" content="{{ site.title | default: site.title }}" />

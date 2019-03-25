@@ -1,0 +1,6 @@
+<div class="dropdown-menu" aria-labelledby="language-menu">
+  {% for item in site.translations[site.lang]["langs"] %}
+  {% capture link %}{{ page.namespace }} {{ item[0] }}{% endcapture %}
+  <a class="dropdown-item" href="{% tl link %}">{{ item[1] }}</a>
+  {% endfor %}
+</div>

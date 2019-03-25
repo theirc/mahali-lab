@@ -1,0 +1,20 @@
+@charset 'utf-8';
+@import "settings";
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// Global
+@import 'global/mixins';
+@import 'global/utilities';
+@import 'global/base';
+@import 'global/fonts';
+@import 'global/typography';
+@import 'global/animations';
+
+// Components
+@import 'components/page_header';
+@import 'components/page_content';
+@import 'components/page_footer';
+@import 'components/cognito';
+
+// Pages
+@import 'pages/homepage';
