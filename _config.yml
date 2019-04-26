@@ -12,6 +12,11 @@ socialshare:
     username:
     image:
 
+collections:
+  tools:
+    output: true
+
+
 # Google Analytics
 analytics_code:
 
