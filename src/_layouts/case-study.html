@@ -11,7 +11,7 @@ layout: default
       <div class="col-12">
         <div class="content text-center">
           <h1>{{ page.name }}</h1>
-          {{ page.content }}
+          <p>{{ page.description }}</p>
         </div>
       </div>
     </div>
@@ -33,11 +33,11 @@ layout: default
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="content text-center">
+        <div class="editable content text-center">
           <h2>What and how</h2>
-          <p>{{ page.what_and_how }}</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet tempora aspernatur sequi magni minus cum recusandae, commodi asperiores, aut ullam eveniet neque quas! Totam aspernatur voluptatibus incidunt, necessitatibus obcaecati eius.</p>
           <h2>When to use the tool</h2>
-          <p>{{ page.when_to_use_the_tool }}</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime officiis nam asperiores culpa similique rerum facere blanditiis, soluta nesciunt at, laboriosam tempore cum! Numquam, perspiciatis. Fugiat, possimus commodi. Asperiores!</p>
         </div>
       </div>
     </div>
@@ -49,38 +49,42 @@ layout: default
       <div class="col-12">
         <div class="content text-center">
           <h2>Example</h2>
-          <p>Brief description of the problem the team is trying to solve, Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolor.</p>
+          <p>Brief description of the problem the team is trying to solve, Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi, dolor.</p>
         </div>
       </div>
     </div>
     <div class="row">
       {% for i in (1..3) %}
-        <div class="col-lg-4">
-          <div class="content">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="">
-          </div>
+      <div class="col-lg-4">
+        <div class="content">
+          <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="">
         </div>
+      </div>
       {% endfor %}
     </div>
     <div class="row">
       <div class="col-12">
         <div class="content text-center">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel provident minus voluptate, saepe unde aperiam repellat est distinctio tenetur placeat?</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, voluptatem molestias pariatur iste voluptatum mollitia tenetur impedit porro non debitis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel provident minus voluptate, saepe unde aperiam
+            repellat est distinctio tenetur placeat?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, voluptatem molestias pariatur iste
+            voluptatum mollitia tenetur impedit porro non debitis.</p>
         </div>
         <img src="https://via.placeholder.com/1800x600" class="img-fluid" alt="">
         <h3>Available Rich Content</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit perferendis consequatur facere quaerat deleniti possimus tempora optio voluptas.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit perferendis consequatur facere
+          quaerat deleniti possimus tempora optio voluptas.</p>
         <img src="https://via.placeholder.com/1800x600" class="img-fluid" alt="">
       </div>
     </div>
     <div class="row">
       {% for i in (1..3) %}
-        <div class="col-lg-4">
-          <div class="content">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="">
-          </div>
+      <div class="col-lg-4">
+        <div class="content">
+          <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="">
         </div>
+      </div>
       {% endfor %}
     </div>
     <div class="row">

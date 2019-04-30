@@ -5,6 +5,46 @@ title: titles.home
 namespace: home
 permalink: /
 ---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <h1>Community Tools</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, incidunt reprehenderit in
+            veritatis labore velit obcaecati voluptatibus eius debitis officia? Tempore sit nisi asperiores voluptas
+            deserunt libero assumenda corporis? Magnam sequi aliquam quia unde commodi eveniet voluptas officiis,
+            mollitia ut nesciunt ab ad eos maiores recusandae odio voluptatibus tempore doloribus!</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      {% for principle in site.principles %}
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="content">
+          <div class="card">
+            <div class="card-header">{{ principle.name }}</div>
+            <div class="card-body">
+              <img src="{{ principle.icon_image }}" class="rounded" alt="{{ principle.name }} image">
+              <p>{{ category.description }}</p>
+            </div>
+            <div class="card-footer">
+              <a href="{{ principle.url }}">Find Tools</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <section>
   <div class="container">
     <div class="row">

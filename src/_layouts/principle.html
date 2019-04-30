@@ -7,13 +7,13 @@ layout: default
     <div class="row align-items-center">
       <div class="col-lg-4">
         <div class="content">
-          <img src="https://via.placeholder.com/500" class="img-fluid" alt="">
+          <img src="{{ page.icon_image }}" class="img-fluid" alt="{{ page.name }} image">
         </div>
       </div>
       <div class="col-lg-8">
         <div class="content">
-          <h1>Be Open</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit expedita officiis accusantium atque iusto eveniet voluptate modi id sed.</p>
+          <h1>{{ page.name }}</h1>
+          <p>{{ page.description }}</p>
         </div>
       </div>
     </div>
@@ -22,13 +22,13 @@ layout: default
 <section>
   <div class="container">
     <div class="row">
-      {% for i in (1..2) %}
+      {% for case in page.case-studies %}
       <div class="col-lg-6">
         <div class="content text-center">
-          <h2>Tool Name</h2>
-          <img src="https://via.placeholder.com/768x500" class="img-fluid" alt="">
+          <h2>{{ case.name }}</h2>
+          <img src="{{ case.banner_image }}" class="img-fluid" alt="{{ case.name }} image">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestias dolorem, quod molestiae odit optio voluptatem aliquam ducimus soluta deleniti.</p>
-          <a href="#">Learn More</a>
+          <a href="{{ case.url }}">Learn More</a>
         </div>
       </div>
       {% endfor %}

@@ -13,8 +13,14 @@ socialshare:
     image:
 
 collections:
+  principles:
+    output: true
   tools:
     output: true
+  case-studies:
+    output: true
+  posts: 
+    output: true  
 
 
 # Google Analytics
