@@ -17,7 +17,7 @@ collections:
     output: true
   tools:
     output: true
-  case-studies:
+  case_studies:
     output: true
   posts: 
     output: true  
