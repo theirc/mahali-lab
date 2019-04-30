@@ -1,7 +1,8 @@
 ---
 layout: case-study
 name:
-description: 
+description:
+grid_image:
 banner_image:
 principle:
 tools:
