@@ -2,7 +2,7 @@
 layout: principle
 name: Look & Think
 description:
-icon_image:
+icon_image: https://via.placeholder.com/150
 case_studies:
   - current-reality-vs--desired-reality
   - feedback-notebook

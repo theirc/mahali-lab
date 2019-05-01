@@ -2,8 +2,8 @@
 layout: case-study
 name: Idea Blender
 description:
-grid_image:
-banner_image:
+grid_image: https://via.placeholder.com/768x500
+banner_image: https://via.placeholder.com/1800x1000
 principle: create-build--test
 tool: idea-blender
 ---

@@ -2,8 +2,8 @@
 layout: case-study
 name: Context tool
 description:
-grid_image:
-banner_image:
+grid_image: https://via.placeholder.com/768x500
+banner_image: https://via.placeholder.com/1800x1000
 principle: scale--sustain
 tool: context-tool
 ---
