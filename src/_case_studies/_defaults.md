@@ -5,5 +5,5 @@ description:
 grid_image:
 banner_image:
 principle:
-tools:
+tool:
 ---
