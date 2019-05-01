@@ -3,7 +3,7 @@ layout: principle
 name: Scale & Sustain
 description:
 icon_image:
-case-studies:
+case_studies:
 tools:
 ---
 

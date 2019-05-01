@@ -3,7 +3,7 @@ layout: principle
 name: Look & Think
 description:
 icon_image:
-case-studies:
+case_studies:
 tools:
 ---
 

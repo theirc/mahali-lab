@@ -3,6 +3,6 @@ layout: principle
 name:
 description:
 icon_image:
-case-studies:
+case_studies:
 tools:
 ---
