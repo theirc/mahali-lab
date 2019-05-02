@@ -31,6 +31,7 @@ source: src
 
 gems:
   - jekyll-multiple-languages-plugin
+  - jekyll-contentblocks
 
 
 # Localization

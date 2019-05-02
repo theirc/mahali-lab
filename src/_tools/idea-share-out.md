@@ -11,3 +11,8 @@ related_tools:
   - context-tool
 ---
 
+{% contentfor tool_example no-convert %}
+  <div class="editable">
+    <p>&nbsp;</p>
+  </div>
+{% endcontentfor %}

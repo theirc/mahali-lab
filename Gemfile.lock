@@ -17,6 +17,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-contentblocks (1.2.0)
+      jekyll
     jekyll-multiple-languages-plugin (1.6.0)
       jekyll (>= 2.0, < 4.0)
     jekyll-sass-converter (1.5.2)
@@ -54,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.3.1)
+  jekyll-contentblocks
   jekyll-multiple-languages-plugin (~> 1.6.0)
   sass
   scss_lint
@@ -62,4 +65,4 @@ RUBY VERSION
    ruby 2.3.8p459
 
 BUNDLED WITH
-   1.16.6
+   2.0.1
