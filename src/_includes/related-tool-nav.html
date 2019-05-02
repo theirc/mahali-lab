@@ -1,12 +1,27 @@
+{% assign current_tool = page.slug %}
+{% assign related =  site.tools | where: "related_tools", current_tool %}
+
 <section class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="content text-center">
-          <h4>Related Tool:</h4>
-          <a href="#">Tool Name</a>
+          <h4>Related Tools:</h4>
         </div>
       </div>
+    </div>
+    <div class="row justify-content-center">
+      {% for tool in related %}
+      <div class="col-lg-4">
+        <div class="content text-center">
+          <a href="{{ tool.url }}">{{ tool.name }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>      
+          
+      
+   
     </div>
   </div>
 </section>

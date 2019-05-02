@@ -1,15 +1,15 @@
 {% assign principles = site.principles | sort: 'order_number' %}
 
 {% for principle in principles %}
-{% if principle.title == page.title %}
-{% unless forloop.first %}
-{% assign prev = tmpprev %}
-{% endunless %}
-{% unless forloop.last %}
-{% assign next = principles[forloop.index] %}
-{% endunless %}
-{% endif %}
-{% assign tmpprev = principle %}
+  {% if principle.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prev = tmpprev %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = principles[forloop.index] %}
+    {% endunless %}
+  {% endif %}
+  {% assign tmpprev = principle %}
 {% endfor %}
 
 <section class="bg-light">
