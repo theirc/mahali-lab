@@ -26,7 +26,8 @@ permalink: /
 <section>
   <div class="container">
     <div class="row">
-      {% for principle in site.principles %}
+      {% assign principles = site.principles | sort: 'order_number' %}
+      {% for principle in principles  %}
       <div class="col-12 col-md-6 col-lg-3">
         <div class="content">
           <div class="card">

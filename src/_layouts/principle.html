@@ -43,6 +43,13 @@ layout: default
 <section class="bg-light">
   <div class="container">
     <div class="row">
+      <div class="col-12">
+        <div class="content">
+          <h2 class="text-center">More tools to {{ page.name }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
       {% assign tools = site.tools | where: "principle", current_principle %}
       {% for tool in tools %}
         {% if tool.case_study == false %}
@@ -53,7 +60,8 @@ layout: default
                 <div class="bg-image aspect-4x3" style="background-image: url(https://via.placeholder.com/500x300)"></div>
                 <div class="card-body">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ducimus.</p>
-                  <a href="#">Download Tool</a>
+                  <a href="#" class="btn btn-primary">Download Tool</a>
+                  <a href="{{ tool.url }}" class="btn btn-primary">View Tool</a>
                 </div>
               </div>
             </div>
@@ -61,12 +69,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="content text-center">
-          <a href="#">Next Principle</a>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </section>
+{% include principle-nav.html %}

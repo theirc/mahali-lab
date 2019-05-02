@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: tool
 name: Mindsets in Space
 description: 'This is an inclusive way to frame a community challenge and explore how different stakeholders experience the problem.'
 grid_image: https://via.placeholder.com/768x500

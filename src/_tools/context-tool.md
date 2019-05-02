@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: tool
 name: Context tool
 description:
 grid_image: https://via.placeholder.com/768x500

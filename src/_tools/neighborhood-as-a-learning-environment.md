@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: tool
 name: Neighborhood as a learning environment
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.

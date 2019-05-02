@@ -1,0 +1,31 @@
+{% assign principles = site.principles | sort: 'order_number' %}
+
+{% for principle in principles %}
+{% if principle.title == page.title %}
+{% unless forloop.first %}
+{% assign prev = tmpprev %}
+{% endunless %}
+{% unless forloop.last %}
+{% assign next = principles[forloop.index] %}
+{% endunless %}
+{% endif %}
+{% assign tmpprev = principle %}
+{% endfor %}
+
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">{% if prev %}<a href="{{ prev.url}}" class="nav-link">&lt; {{ prev.title }} tools</a>{% endif %}
+            </li>
+            <li class="nav-item">{% if next %}<a href="{{ next.url}}" class="nav-link">{{ next.title }} tools &gt;</a>{% endif %}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

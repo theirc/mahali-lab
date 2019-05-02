@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: tool
 name: Current reality vs. desired reality
 description:
 grid_image: https://via.placeholder.com/768x500
