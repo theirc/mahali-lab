@@ -7,6 +7,6 @@ banner_image:
 principle: be-open
 tool_document:
 case_study: false
-tools:
+related_tools:
 ---
 
