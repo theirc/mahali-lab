@@ -8,5 +8,6 @@ principle: be-open
 tool_document:
 case_study: false
 related_tools:
+  - idea-blender
 ---
 
