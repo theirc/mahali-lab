@@ -1,0 +1,22 @@
+#principle-nav {
+  justify-content: center;
+  margin-bottom: 50px;
+
+  a {
+    position: relative;
+    padding: 10px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.5;
+    &.active {
+      opacity: 1;
+    }
+
+  }
+  img {
+    background-color: $white;
+    border-radius: 50%;
+    width: 50px;
+  }
+}

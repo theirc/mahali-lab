@@ -1,8 +1,8 @@
 ---
 layout: principle
 name: Scale & Sustain
-description:
-icon_image: https://via.placeholder.com/150
+description: 'Consider who will carry out and spread your program. Strive for it to have a life of its own.'
+icon_image: /assets/img/scale-sustain.svg
 order_number: 4
 ---
 

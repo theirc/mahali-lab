@@ -10,9 +10,3 @@ case_study: false
 related_tools:
   - current-reality-vs--desired-reality
 ---
-
-{% contentfor tool_example no-convert %}
-  <div class="editable">
-    <p>&nbsp;</p>
-  </div>
-{% endcontentfor %}

@@ -9,9 +9,3 @@ tool_document:
 case_study: true
 related_tools:
 ---
-
-{% contentfor tool_example no-convert %}
-  <div class="editable">
-    <p>&nbsp;</p>
-  </div>
-{% endcontentfor %}

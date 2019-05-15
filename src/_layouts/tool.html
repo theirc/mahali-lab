@@ -17,32 +17,40 @@ layout: default
     </div>
   </section>
 {% else %}
-  <section>
-
-  </section>
+  <div class="bg-image aspect-hero" style="background-image: url({{ site.placeholder_image }})"></div>
   <section class="bg-light">
-    <div class="container">
+    <div class="container ">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-lg-8 mx-lg-auto">
           <div class="content text-center">
-            <h1>{{ page.name }}</h1>
-            {{ page.content }}
+            <div class="tool-intro">
+              {% assign current_principle = site.principles | where: "slug", page.principle | first %}
+              <div class="tool-principle">
+                <p class="mb-0">{{ current_principle.name }}</p>
+                <img src="{{ current_principle.icon_image }}" class="img-fluid tool-icon" alt="{{ page.name }} icon">
+              </div>
+              <h1>{{ page.name }}</h1>
+              <p class="mb-0">{{ page.description }}</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        {% for i in (1..3) %}
+      <div class="row justify-content-center">
         <div class="col-lg-4">
-          <div class="content">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="" />
+          <div class="content text-center">
+            <a href="{{ page.tool_document }}">
+              <img src="{{ page.grid_image }}" class="img-fluid" alt="{{ page.name }} image" />
+              Download Tool
+            </a>
           </div>
         </div>
-        {% endfor %}
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-8 mx-lg-auto">
           <div class="content text-center">
-            <a href="#">Download Tool</a>
+            <h2 class="mt-5">What and how</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, modi repudiandae? Quos, quidem quis. Pariatur
+              perferendis doloremque ipsam impedit vero.</p>
           </div>
         </div>
       </div>
@@ -60,7 +68,7 @@ layout: default
       <div class="row">
         <div class="col-12">
           <div class="content text-center">
-            {% contentblock tool_example %}
+        
           </div>
         </div>
       </div>

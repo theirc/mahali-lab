@@ -1,0 +1,9 @@
+.btn {
+  &.btn-bordered {
+    background: transparent;
+    border-bottom: 1px solid $dark;
+    color: $dark;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

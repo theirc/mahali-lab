@@ -12,6 +12,7 @@
 }
 
 .content {
+  padding: 20px;
   position: relative;
   @extend %clearfix;
 }
@@ -48,6 +49,28 @@
   &.aspect-16x9 {
     padding-top: 56.25%;
   }
+  &.aspect-section {
+    height: auto;
+  }
+  &.aspect-hero {
+    padding-top: 30%;
+  }
+}
+
+.bg-light-opacity {
+  background-color: rgba($light, 0.9);
+}
+
+.overlap-bottom {
+  padding-bottom: 150px;
+}
+
+.overlap-top {
+  margin-top: -175px;
+}
+
+.round {
+  border-radius: 50%;
 }
 
 // Sticky behavior

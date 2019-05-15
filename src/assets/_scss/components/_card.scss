@@ -1,0 +1,64 @@
+.card {
+  border: 0;
+  .card-header {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .card-footer {
+    background-color: $yellow;
+    border: 0;
+    a {
+      color: $dark;
+    }
+  }
+  &.principle-card {
+    margin: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    .card-header {
+      height: 65px;
+      h3 {
+        font-size: 18px;
+      }
+    }
+    .card-body {
+      padding-top: 0;
+    }
+    .card-footer {
+      font-weight: 600;
+      a {
+        border-bottom: 1px solid $body-color;
+      }
+    }
+    .icon-container {
+      border-radius: 50%;
+      max-width: 70%;
+      margin: 0 auto 20px;
+    }
+  }
+  &.tool-card {
+    .card-header {
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h4 {
+        font-size: 17px;
+        margin-bottom: 0;
+      }
+    }
+    .card-footer {
+      padding: 0 0 4px;
+      a {
+        width: 50%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 0;
+        border-bottom: 2px solid $dark;
+        margin: 5px 10px;
+      }
+    }
+  }
+}
