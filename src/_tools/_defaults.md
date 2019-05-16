@@ -9,7 +9,8 @@ tool_document:
 what_and_how_text:
 example:
  - description:
- - image:
+ - example_images:
+    - image:
 testimonial:
   - quote_text:
     author:    
