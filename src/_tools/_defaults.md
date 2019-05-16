@@ -6,11 +6,13 @@ grid_image:
 banner_image:
 principle:
 tool_document:
-what_and_how:
-example_description:
-example_images:
+what_and_how_text:
+example:
+ - description:
+ - images:
+   -
 testimonial:
-  - quote:
+  - quote_text:
     author:    
 case_study: false
 related_tools:
