@@ -7,10 +7,9 @@ banner_image:
 principle:
 tool_document:
 what_and_how_text:
-example:
- - description:
- - example_images:
-    - image:
+example_description:
+example_images:
+  - image:
 testimonial:
   - quote_text:
     author:    
