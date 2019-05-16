@@ -111,28 +111,15 @@ module.exports = {
               babelrc: true
             }
           }
-        },
-        {
-          test: require.resolve("jquery"),
-          use: [
-            {
-              loader: "expose-loader",
-              options: "$"
-            },
-            {
-              loader: "expose-loader",
-              options: "jQuery"
-            }
-          ]
         }
       ]
     },
     plugins: [
       new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery",
-        "window.jQuery": "jquery",
-        Popper: ["popper.js", "default"]
+        // $: "jquery",
+        // jQuery: "jquery",
+        // "window.jQuery": "jquery",
+        // Popper: ["popper.js", "default"]
         // In case you want to import plugins individually, you must also require them here:
         // Util: "exports-loader?Util!bootstrap/js/dist/util",
         // Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown",

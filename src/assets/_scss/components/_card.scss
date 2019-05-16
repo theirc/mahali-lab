@@ -6,14 +6,13 @@
   }
   
   .card-footer {
-    background-color: $yellow;
+    
     border: 0;
     a {
       color: $dark;
     }
   }
   &.principle-card {
-    margin: 20px;
     padding-left: 0;
     padding-right: 0;
     .card-header {
@@ -27,6 +26,7 @@
     }
     .card-footer {
       font-weight: 600;
+      background-color: $yellow;
       a {
         border-bottom: 1px solid $body-color;
       }
@@ -50,15 +50,79 @@
     }
     .card-footer {
       padding: 0 0 4px;
+      background-color: $primary;
       a {
         width: 50%;
         text-align: center;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 13px;
         padding: 0;
         border-bottom: 2px solid $dark;
         margin: 5px 10px;
       }
+    }
+  }
+  &.case-study-card {
+    text-align: center;
+    .card-header {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-footer {
+      background-color: transparent;
+    }
+  }
+}
+
+.card-deck-33 {
+  flex-flow: wrap;
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+  .card {
+    flex: inherit;
+    width: 30%;
+    margin-bottom: 25px;
+    &:last-of-type {
+      margin-right: auto;
+    }
+    @include media-breakpoint-down(md) {
+      width: 45%;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+}
+
+.card-deck-25 {
+  flex-flow: wrap;
+  justify-content: center;
+  .card {
+    flex: inherit;
+    width: 20%;
+    @include media-breakpoint-down(md) {
+      width: 45%;
+      margin-bottom: 25px;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.card-deck-50 {
+  flex-flow: wrap;
+  justify-content: center;
+  .card {
+    flex: inherit;
+    width: 45%;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin-bottom: 25px;
     }
   }
 }

@@ -24,15 +24,11 @@
             <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >Design for Dignity</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <button id="language-menu" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Language
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+              {% translate topnav.language_selection %}
+            </button>
+            {% include components/language-selector.html %}
           </li>
         </ul>
       </div>

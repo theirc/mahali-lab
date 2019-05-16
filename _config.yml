@@ -1,7 +1,7 @@
 # Site settings
 title: Arabic Design Tool
 email: dev@ocupop.com
-url: "http://client_url.com"
+url: ""
 permalink: /:title
 
 # Social sharing
@@ -31,8 +31,6 @@ source: src
 
 gems:
   - jekyll-multiple-languages-plugin
-  - jekyll-contentblocks
-
 
 # Localization
 languages: ["ar", "en", "es"]

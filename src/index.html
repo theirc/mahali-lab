@@ -12,7 +12,7 @@ permalink: /
       <div class="col-12 col-lg-8 mx-lg-auto">
         <div class="content text-center ">
           <div class="p-4 bg-light-opacity">
-            <h1>Community Tools</h1>
+            <h1 class="font-weight-bolder"><strong>Community Tools</strong></h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, incidunt reprehenderit in
               veritatis labore velit obcaecati voluptatibus eius debitis officia? Tempore sit nisi asperiores voluptas
               deserunt libero assumenda corporis? Magnam sequi aliquam quia unde commodi eveniet voluptas officiis,
@@ -25,12 +25,12 @@ permalink: /
 </section>
 <section class="bg-light">
   <div class="container overlap-top">
-    <div class="card-group">
+    <div class="card-deck card-deck-quarters">
       {% assign principles = site.principles | sort: 'order_number' %}
       {% for principle in principles  %}
         <div class="card principle-card text-center col-md-6 col-lg-3">
           <div class="card-header">
-            <h3>{{ principle.name }}</h3>
+            <h3><strong>{{ principle.name }}</strong></h3>
           </div>
           <div class="card-body">
             <div class="bg-light icon-container">

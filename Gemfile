@@ -7,5 +7,4 @@ gem 'scss_lint'
 
 group :jekyll_plugins do
   gem "jekyll-multiple-languages-plugin", "~>1.6.0"
-  gem 'jekyll-contentblocks'
 end

@@ -7,7 +7,7 @@ layout: default
     <div class="row align-items-center">
       <div class="col-12 col-lg-6 mx-lg-auto">
         <div class="content">
-          <ul id="principle-nav" class="nav flex-nowrap">
+          <ul id="principle-nav" class="nav flex-nowrap justify-content-between">
             {% assign principles = site.principles | sort: 'order_number' %}
             {% for principle in principles  %}
               <li class="nav-item">
@@ -18,7 +18,7 @@ layout: default
             {% endfor %}
           </ul>
           <div class="text-center">
-            <h1>{{ page.name }}</h1>
+            <h1><strong>{{ page.name }}</strong></h1>
             <p>{{ page.description }}</p>
           </div>
         </div>
@@ -30,20 +30,31 @@ layout: default
 <section>
   <div class="container">
     <div class="row justify-content-center">
-      {% assign current_principle = page.slug %}
-      {% assign case_tools = site.tools | where: "principle", current_principle %}
-      {% for case in case_tools %}
-        {% if case.case_study == true %}
-        <div class="col-lg-6">
-          <div class="content text-center">
-            <h2 class="mt-3">{{ case.name }}</h2>
-            <img src="{{ case.grid_image }}" class="img-fluid" alt="{{ case.name }} image">
-            <p class="mt-5">{{ case.description }}</p>
-            <a href="{{ case.url }}" class="btn btn-bordered">Learn More</a>
+      <div class="col-12">
+        <div class="content">
+          <div class="card-deck card-deck-50">
+            {% assign current_principle = page.slug %}
+            {% assign case_tools = site.tools | where: "principle", current_principle %}
+            {% for case in case_tools %}
+            {% if case.case_study == true %}
+              <div class="card case-study-card">
+                <div class="card-header">
+                  <h2 class="mt-3"><strong>{{ case.name }}</strong></h2>
+                </div>
+                <div class="card-body text-center">
+                  <img src="{{ case.grid_image }}" class="img-fluid" alt="{{ case.name }} image">
+                  <p class="mt-5">{{ case.description }}</p>
+                </div>  
+                <div class="card-footer">
+                  <a href="{{ case.url }}" class="btn btn-bordered">Learn More</a>
+                </div>
+              </div>
+              
+            {% endif %}
+            {% endfor %}
           </div>
         </div>
-        {% endif %}
-      {% endfor %}
+      </div>
     </div>
   </div>
 </section>
@@ -52,36 +63,30 @@ layout: default
     <div class="row">
       <div class="col-12">
         <div class="content">
-          <h2 class="text-center">More tools to {{ page.name }}</h2>
+          <h2 class="text-center"><strong>More tools to {{ page.name }}</strong></h2>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="card-deck card-deck-33">
       {% assign tools = site.tools | where: "principle", current_principle %}
       {% for tool in tools %}
         {% if tool.case_study == false %}
-          <div class="col-lg-4">
-      
-              <div class="card tool-card text-center">
-                <div class="card-header">
-                  <h4>{{ tool.name }}</h4>
-                </div>
-                
-                <div class="bg-image aspect-4x3" style="background-image: url(https://via.placeholder.com/500x300)"></div>
-                <div class="card-body">
-                  <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ducimus.</p>
-                </div>
-                <div class="card-footer d-flex text-uppercase">
-                  <a href="#" class="btn"><strong>Download Tool</strong><br>In Arabic</a>
-                  <a href="#" class="btn"><strong>Download Tool</strong><br>In English</a>
-                </div>
-              </div>
-         
+          <div class="card tool-card text-center">
+            <div class="card-header">
+              <h4><strong>{{ tool.name }}</strong></h4>
+            </div>
+            <div class="bg-image aspect-4x3" style="background-image: url(https://via.placeholder.com/500x300)"></div>
+            <div class="card-body">
+              <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ducimus.</p>
+            </div>
+            <div class="card-footer d-flex text-uppercase">
+              <a href="#" class="btn"><strong>Download Tool</strong><br>In Arabic</a>
+              <a href="#" class="btn"><strong>Download Tool</strong><br>In English</a>
+            </div>
           </div>
         {% endif %}
       {% endfor %}
     </div>
-    
   </div>
 </section>
 {% include principle-nav.html %}
