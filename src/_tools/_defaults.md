@@ -5,7 +5,8 @@ description:
 grid_image:
 banner_image:
 principle:
-tool_document:
+arabic_tool_document:
+english_tool_document:
 what_and_how_text:
 example_description:
 example_images:

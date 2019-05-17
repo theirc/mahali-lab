@@ -1,0 +1,18 @@
+.testimonial {
+  position: relative;
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    font-size: 60px;
+    font-style: italic;
+  }
+  &::before {
+    left: 0;
+    content: open-quote
+  }
+  &::after {
+    right: 0;
+    content: close-quote;
+  }
+}
