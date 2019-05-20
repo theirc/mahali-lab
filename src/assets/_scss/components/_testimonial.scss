@@ -1,10 +1,11 @@
 .testimonial {
   position: relative;
+  font-size: 20px;
   &::before,
   &::after {
     position: absolute;
     top: 0;
-    font-size: 60px;
+    font-size: 65px;
     font-style: italic;
   }
   &::before {

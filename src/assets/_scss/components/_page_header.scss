@@ -7,15 +7,24 @@
     padding: 10px 3px 12px;
     margin: 0 10px;
     &.active {
-      &::after {
+      &::before {
         content: '';
-        display: block;
         position: absolute;
-        bottom: -8px;
-        left: -3px;
-        width: 100%;
-        height: 10px;
         background-color: $dark;
+        left: -15px;
+        top: 0;
+        width: 4px;
+        height: 100%; 
+      }
+      @include media-breakpoint-up(lg) {
+        &::before {
+          display: block;
+          bottom: -8px;
+          left: -3px;
+          top: auto;
+          width: 100%;
+          height: 10px;
+        }
       }
     }
   }
@@ -28,10 +37,65 @@
     text-align: center;
     font-size: 16px;
     background: $orange;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 100%;
     padding: 5px 30px;
+  }
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.navbar-toggler {
+  display: block;
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  background-color: transparent;
+  float: none;
+  z-index: 1000;
+  pointer-events: all;
+  text-align: center;
+  border: 0;
+  &:focus {
+    outline: 0;
+  }
+  &.collapsed {
+    .bar {
+      &.close-one {
+        transform: rotate(0);
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      &.close-two {
+        transform: rotate(0);
+      }
+      &.close-three {
+        opacity: 1;
+      }
+    }
+  }
+  .bar {
+    background-color: $dark;
+    border-radius: 0;
+    display: block;
+    margin: 5px 0;
+    width: 20px;
+    height: 1px;
+    @include transition(.5s);
+    &.close-one {
+      transform: rotate(-45deg);
+      margin-top: 10px;
+      margin-bottom: -6px;
+    }
+    &.close-two {
+      transform: rotate(45deg);
+    }
+    &.close-three {
+      opacity: 0;
+    }
   }
 }

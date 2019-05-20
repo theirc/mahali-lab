@@ -8,7 +8,8 @@
     border-radius: 50%;
     margin: 0 10px;
     opacity: 0.5;
-    &.active {
+    &.active,
+    &:hover {
       opacity: 1;
     }
 
