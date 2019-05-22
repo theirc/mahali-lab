@@ -5,15 +5,14 @@ description:
 grid_image:
 banner_image:
 principle:
-arabic_tool_document:
-english_tool_document:
+tool_document:
 what_and_how_text:
 example_description:
 example_images:
   - image:
 testimonial:
   - quote_text:
-    author:    
+    author:
 case_study: false
 related_tools:
 ---
