@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if page.case_study ==  false %}
+{% if page.case_study == false %}
   <section>
     <div class="container">
       <div class="row">
@@ -32,7 +32,26 @@ layout: default
                 </div>
               </div>
               <h1>{{ page.name }}</h1>
+              {% comment %}
+
+              {% capture test %}tools/{{page.slug}}.html{% endcapture %}
+              {% capture test_content %}{% translate_file test %}{% endcapture %}
+              {% unless test_content contains "Liquid error" %}
+                {% translate_file test %}
+              {% endunless %}
+
+              
+              <hr>
+              {% case site.lang %}
+               {% when 'en' %}
+                <p class="mb-0">{{ page.description_en }}</p>
+               {% when 'ar' %}
+                <p class="mb-0">{{ page.description }}</p>
+              {% endcase %}
+              {% endcomment %}
+              
               <p class="mb-0">{{ page.description }}</p>
+              
             </div>
           </div>
         </div>

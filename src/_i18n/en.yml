@@ -1,8 +1,16 @@
 langs:
-  en: English
-  ar: Arabic
-  es: Spanish
+  ar: "عربى"
 titles:
   home: "Mahali (English)"
+cta:
+  find_tools: Find Tools
 topnav:
+  tools_link: Community Tools
+  design_for_dignity_link: Design for Dignity
   language_selection: "Language Selector"
+footer:
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ab sed natus ipsam. Deserunt ex veritatis optio eum ut vitae blanditiis, rerum itaque temporibus architecto placeat dolor impedit quaerat eius?
+  form_title: Contact Us
+  email_label: Email Address
+  message_label:  Message
+  submit_label: Send

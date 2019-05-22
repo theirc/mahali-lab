@@ -4,6 +4,7 @@ title: titles.home
 
 namespace: home
 permalink: /
+permalink_en: /
 ---
 
 <section class="bg-image aspect-section overlap-bottom" style="background-image: url(/assets/img/Farah_NGO-Practitioner-Sitting-with-Parent-Student-and-Teacher.jpg)">
@@ -12,11 +13,7 @@ permalink: /
       <div class="col-12 col-lg-8 mx-lg-auto">
         <div class="content text-center ">
           <div class="p-4 bg-light-opacity">
-            <h1 class="font-weight-bolder"><strong>Community Tools</strong></h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, incidunt reprehenderit in
-              veritatis labore velit obcaecati voluptatibus eius debitis officia? Tempore sit nisi asperiores voluptas
-              deserunt libero assumenda corporis? Magnam sequi aliquam quia unde commodi eveniet voluptas officiis,
-              mollitia ut nesciunt ab ad eos maiores recusandae odio voluptatibus tempore doloribus!</p>
+            {% translate_file home/intro.html %}
           </div>
         </div>
       </div>
@@ -26,10 +23,10 @@ permalink: /
 
 <section class="bg-light">
   <div class="container overlap-top">
-    <div class="card-deck card-deck-25">
+    <div class="card-deck card-deck-25{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
       {% assign principles = site.principles | sort: 'order_number' %}
       {% for principle in principles  %}
-        <div class="card principle-card text-center col-md-6 col-lg-3">
+        <div class="card principle-card text-center col-md-6 col-lg-4">
           <div class="card-header">
             <h3><strong>{{ principle.name }}</strong></h3>
           </div>
@@ -41,7 +38,7 @@ permalink: /
           </div>
           <div class="card-footer">
             <a href="{{ principle.url }}">
-              Find Tools
+              {% translate cta.find_tools %}
             </a>
           </div>
         </div>
@@ -50,7 +47,7 @@ permalink: /
   </div>
 </section>
 
-<section class="">
+<section class="d-none">
   <div class="container">
     <div class="row">
       <div class="col-12">

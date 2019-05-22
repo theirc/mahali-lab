@@ -1,29 +1,29 @@
 <footer id="page-footer" class="bg-dark text-white">
   <div class="container">
-    <div class="row">
+    <div class="row {% unless site.lang =='en' %} flex-row-reverse text-right{% endunless %}">
       <div class="col-lg-6">
         <div class="content">
           <img src="https://via.placeholder.com/350x100/000/444.png?text=Logo" class="img-fluid mb-3" alt="Design Tool logo">
           <div class="editable">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, qui.</p>
+            <p>{% translate footer.description %}</p>
           </div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="content">
-          <h3><strong>Contact Us</strong></h3>
+          <h3><strong>{% translate footer.form_title %}</strong></h3>
           <form method="post" action="/success.html">
             <input type="hidden" name="_to" value="jon@ocupop.com">
             <div class="form-group">
-              <label>Email Address</label>
+              <label>{% translate footer.email_label %}</label>
               <input type="text" name="email" class="form-control">
             </div>
             <div class="form-group">
-              <label>Message</label>
+              <label>{% translate footer.message_label %}</label>
               <textarea name="message" class="form-control"></textarea>
             </div>
             <input type="text" name="_gotcha" style="display: none;">
-            <input type="submit" value="Send" class="btn btn-primary">
+            <input type="submit" value="{% translate footer.submit_label %}" class="btn btn-primary">
           </form>
         </div>
       </div>

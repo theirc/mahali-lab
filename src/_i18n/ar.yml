@@ -1,8 +1,16 @@
 langs:
-  ar: "عربى"
-  en: "الإنجليزية"
-  es: "الأسبانية"
+  en: "English"
 titles:
   home: "Mahali (عربى)"
+cta:
+  find_tools: البحث عن الأدوات
 topnav:
+  tools_link: أدوات المجتمع
+  design_for_dignity_link: تصميم للكرامة
   language_selection: "اختيار اللغة"
+footer:
+  description: 
+  form_title: اتصل بنا
+  email_label: عنوان بريد الكتروني
+  message_label: رسالة
+  submit_label: إرسال
