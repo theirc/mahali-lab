@@ -1,11 +1,17 @@
 ---
 layout: tool
-name: Conversation template
-description:
+en:
+  name: Conversation template
+  description:
+  tool_document:
+ar: 
+  name: قالب المحادثة
+  description:
+  tool_document:
+
 grid_image:
 banner_image:
-principle: create-build--test
-tool_document:
+principle: create-build-and-test
 case_study: false
 related_tools:
   - neighborhood-as-a-learning-environment

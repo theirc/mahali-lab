@@ -1,6 +1,20 @@
 ---
 layout: default
 ---
+{% assign current_principle = site.principles | where: "slug", page.principle | first %}
+
+{% case site.lang %}
+{% when 'en' %}
+{% assign name = page.en.name %}
+{% assign description = page.en.description %}
+{% assign tool_document = page.en.tool_document %}
+{% assign principle_name = current_principle.en.name %}
+{% when 'ar' %}
+{% assign name = page.ar.name %}
+{% assign description = page.ar.description %}
+{% assign tool_document = page.ar.tool_document %}
+{% assign principle_name = current_principle.ar.name %}
+{% endcase %}
 
 {% if page.case_study == false %}
   <section>
@@ -8,9 +22,9 @@ layout: default
       <div class="row">
         <div class="col-12">
           <div class="content">
-            <h1>{{ page.name }}</h1>
-            <p>{{ page.description }}</p>
-            <a href="{{ page.tool_document }}">Download Tool</a>
+            <h1>{{ name }}</h1>
+            <p>{{ description }}</p>
+            <a href="{{ tool_document }}">Download Tool</a>
           </div>
         </div>
       </div>
@@ -24,14 +38,14 @@ layout: default
         <div class="col-12 col-lg-10 mx-lg-auto">
           <div class="content text-center">
             <div class="tool-intro">
-              {% assign current_principle = site.principles | where: "slug", page.principle | first %}
+              
               <div class="tool-principle">
-                <p class="mb-0">{{ current_principle.name }}</p>
+                <p class="mb-0">{{ principle_name }}</p>
                 <div class="bg-icon">
-                  <img src="{{ current_principle.icon_image }}" class="img-fluid tool-icon" alt="{{ page.name }} icon">
+                  <img src="{{ current_principle.icon_image }}" class="img-fluid tool-icon" alt="{{ principle_name }} icon">
                 </div>
               </div>
-              <h1>{{ page.name }}</h1>
+              <h1>{{ name }}</h1>
               {% comment %}
 
               {% capture test %}tools/{{page.slug}}.html{% endcapture %}
@@ -42,15 +56,9 @@ layout: default
 
               
               <hr>
-              {% case site.lang %}
-               {% when 'en' %}
-                <p class="mb-0">{{ page.description_en }}</p>
-               {% when 'ar' %}
-                <p class="mb-0">{{ page.description }}</p>
-              {% endcase %}
               {% endcomment %}
-              
-              <p class="mb-0">{{ page.description }}</p>
+
+              <p class="mb-0">{{ description }}</p>
               
             </div>
           </div>
@@ -59,10 +67,10 @@ layout: default
       <div class="row justify-content-center">
         <div class="col-lg-4">
           <div class="content text-center">
-            <a href="{{ page.tool_document }}">
-              <img src="{{ page.grid_image }}" class="img-fluid mb-4" alt="{{ page.name }} image" />
+            <a href="{{ tool_document }}">
+              <img src="{{ page.grid_image }}" class="img-fluid mb-4" alt="{{ name }} image" />
             </a>
-            <a href="{{ page.tool_document }}" class="btn btn-bordered">
+            <a href="{{ tool_document }}" class="btn btn-bordered">
               Download Tool
             </a>
           </div>

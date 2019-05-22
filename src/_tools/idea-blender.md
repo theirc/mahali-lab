@@ -1,11 +1,17 @@
 ---
 layout: tool
-name: Idea Blender
-description:
+en:
+  name: Idea Blender
+  description:
+  tool_document:
+ar: 
+  name: خلاط فكرة
+  description:
+  tool_document:
+
 grid_image: https://via.placeholder.com/768x500
 banner_image: https://via.placeholder.com/1800x1000
-principle: create-build--test
-tool_document:
+principle: create-build-and-test
 case_study: true
 related_tools:
 ---

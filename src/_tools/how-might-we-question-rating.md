@@ -1,12 +1,17 @@
 ---
 layout: tool
-name: How might we question rating
-description:
+en:
+  name: How might we question rating
+  description:
+  tool_document:
+ar: 
+  name: كيف يمكننا السؤال التصويت
+  description:
+  tool_document:
 grid_image:
 banner_image:
-principle: look--think
-tool_document:
+principle: look-and-think
 case_study: false
 related_tools:
-  - current-reality-vs--desired-reality
+  - current-reality-vs-and-desired-reality
 ---
