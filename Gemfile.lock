@@ -53,13 +53,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.3.1)
-  jekyll-multiple-languages-plugin (~> 1.6.0)
+  jekyll
+  jekyll-multiple-languages-plugin
   sass
   scss_lint
 
 RUBY VERSION
-   ruby 2.3.8p459
+   ruby 2.5.1p57
 
 BUNDLED WITH
    2.0.1
