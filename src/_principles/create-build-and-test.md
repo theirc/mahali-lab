@@ -6,7 +6,7 @@ en:
 ar:
   name: إنشاء بناء واختبار
   description: النموذج الأولي وتقييم مجموعة من الأفكار. تعلم ، وتكرار وصقل مع المستخدمين حتى يكون على حق. التفاصيل مهمة - تفشل الأفكار العظيمة ذات العيوب الصغيرة.
-icon_image: /assets/img/create-build-test.svg
-order_number: 3
+_icon_image: /assets/img/create-build-test.svg
+_order_number: 3
 ---
 

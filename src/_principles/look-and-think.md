@@ -6,7 +6,7 @@ en:
 ar:
   name: الشكل والتفكير
   description: ضع نفسك في حذاء المستخدم الخاص بك. تحديد مشاكلهم وقيمهم.
-icon_image: /assets/img/look-think.svg
-order_number: 2
+_icon_image: /assets/img/look-think.svg
+_order_number: 2
 ---
 

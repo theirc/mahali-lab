@@ -6,7 +6,7 @@ en:
 ar: 
   name: نطاق والمحافظة عليها 
   description: النظر في من سيقوم بتنفيذ ونشر البرنامج الخاص بك. نسعى جاهدين للحصول على حياة خاصة به.
-icon_image: /assets/img/scale-sustain.svg
-order_number: 4
+_icon_image: /assets/img/scale-sustain.svg
+_order_number: 4
 ---
 

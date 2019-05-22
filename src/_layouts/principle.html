@@ -15,11 +15,11 @@ layout: default
       <div class="col-12 col-lg-6 mx-lg-auto">
         <div class="content">
           <ul id="principle-nav" class="nav flex-nowrap justify-content-between">
-            {% assign principles = site.principles | sort: 'order_number' %}
+            {% assign principles = site.principles | sort: '_order_number' %}
             {% for principle in principles  %}
               <li class="nav-item">
                 <a href="{{ principle.url }}" class="nav-link {% if page.url == principle.url %}active{% endif %}">
-                  <img src="{{ principle.icon_image}}" class="img-fluid" alt="{{ principle.name}} image">
+                  <img src="{{ principle._icon_image}}" class="img-fluid" alt="{{ principle.name}} image">
                 </a>
               </li>
             {% endfor %}
@@ -103,10 +103,10 @@ layout: default
               <p class="mb-0">{{ tool_description }}</p>
             </div>
             <div class="card-footer d-flex text-uppercase">
-              {% if tool.ar.tool_document}
+              {% if tool.ar.tool_document %}
                 <a href="{{ tool.ar.tool_document }}" class="btn"><strong>Download Tool</strong><br>In Arabic</a>
               {% endif %}
-              {% if tool.ar.tool_document}
+              {% if tool.ar.tool_document %}
                 <a href="{{ tool.en.tool_document }}" class="btn"><strong>Download Tool</strong><br>In English</a>
               {% endif %}
             </div>

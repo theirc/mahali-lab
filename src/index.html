@@ -24,7 +24,7 @@ permalink_en: /
 <section class="bg-light">
   <div class="container overlap-top">
     <div class="card-deck card-deck-25{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
-      {% assign principles = site.principles | sort: 'order_number' %}
+      {% assign principles = site.principles | sort: '_order_number' %}
       {% for principle in principles  %}
         {% case site.lang %}
           {% when 'en' %}
@@ -40,7 +40,7 @@ permalink_en: /
           </div>
           <div class="card-body">
             <div class="bg-light icon-container">
-              <img src="{{ principle.icon_image }}" class="rounded img-fluid" alt="{{ principle.name }} image">
+              <img src="{{ principle._icon_image }}" class="rounded img-fluid" alt="{{ principle.name }} image">
             </div>
             <p><small>{{ description }}</small></p>
           </div>
