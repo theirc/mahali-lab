@@ -26,15 +26,23 @@ permalink_en: /
     <div class="card-deck card-deck-25{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
       {% assign principles = site.principles | sort: 'order_number' %}
       {% for principle in principles  %}
+        {% case site.lang %}
+          {% when 'en' %}
+            {% assign name = principle.en.name %}
+            {% assign description = principle.en.description %}
+          {% when 'ar' %}
+            {% assign name = principle.ar.name %}
+            {% assign description = principle.ar.description %}
+        {% endcase %}
         <div class="card principle-card text-center col-md-6 col-lg-4">
           <div class="card-header">
-            <h3><strong>{{ principle.name }}</strong></h3>
+            <h3><strong>{{ name }}</strong></h3>
           </div>
           <div class="card-body">
             <div class="bg-light icon-container">
               <img src="{{ principle.icon_image }}" class="rounded img-fluid" alt="{{ principle.name }} image">
             </div>
-            <p><small>{{ principle.description }}</small></p>
+            <p><small>{{ description }}</small></p>
           </div>
           <div class="card-footer">
             <a href="{{ principle.url }}">

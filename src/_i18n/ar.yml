@@ -14,3 +14,8 @@ footer:
   email_label: عنوان بريد الكتروني
   message_label: رسالة
   submit_label: إرسال
+principles:
+  create_build_and_test: Create Build & Test
+  scale_and_sustain: Scale & Sustain
+  be_open: Be Open
+  look_and_think: Look & Think
