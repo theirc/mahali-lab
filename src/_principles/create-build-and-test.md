@@ -10,7 +10,7 @@ ar:
   description: >-
     النموذج الأولي وتقييم مجموعة من الأفكار. تعلم ، وتكرار وصقل مع المستخدمين
     حتى يكون على حق. التفاصيل مهمة - تفشل الأفكار العظيمة ذات العيوب الصغيرة
-_icon_image: /assets/img/create-build-test.svg
+_icon_image: /img/create-build-test.svg
 _order_number: 3
 ---
 

@@ -59,12 +59,12 @@ layout: default
                 <div class="card-body text-center">
                   <img src="{{ tool.grid_image }}" class="img-fluid" alt="{{ tool_name }} image">
                   <p class="mt-5">{{ tool_description }}</p>
-                </div>  
+                </div>
                 <div class="card-footer">
-                  <a href="{{ tool.url }}" class="btn btn-bordered">Learn More</a>
+                  <a href="{{ tool.url }}" class="btn btn-bordered">{% translate cta.find_tools %}</a>
                 </div>
               </div>
-              
+
             {% endif %}
             {% endfor %}
           </div>
@@ -116,4 +116,5 @@ layout: default
     </div>
   </div>
 </section>
+
 {% include principle-nav.html %}

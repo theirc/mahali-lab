@@ -4,7 +4,7 @@
 .jekyll-metadata
 
 # Site build
-_site
+dist
 
 # Logs
 *.log
@@ -12,5 +12,4 @@ _site
 # Packages
 node_modules
 
-# Gemfile.lock
-# package-lock.json
+vendor

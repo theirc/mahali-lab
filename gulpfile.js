@@ -1,10 +1,10 @@
-'use strict';
-const gulp       = require('gulp');
-const timeRequire = require('time-require');
-const requireDir = require('require-dir');
+const gulp = require("gulp");
+const suite = require("@cloudcannon/suite");
 
-// Require all tasks in gulp/tasks, including subfolders
-requireDir('./gulp/tasks', { recurse: true });
-
-// Default task begins by setting the watch
-gulp.task('default', ['watch']);
+suite.dev(gulp);
+// suite.dist(gulp, {
+//   "dist": {
+//     "baseurl": "p"
+//   }
+// });
+// suite.i18n(gulp);

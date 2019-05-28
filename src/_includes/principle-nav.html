@@ -1,5 +1,4 @@
 {% assign principles = site.principles | sort: 'order_number' %}
-
 {% for principle in principles %}
   {% if principle.title == page.title %}
     {% unless forloop.first %}
@@ -21,16 +20,16 @@
               {% if prev %}
                 <a href="{{ prev.url}}" class="nav-link">
                   <div class="bg-light round">
-                    <img src="{{ prev.icon_image }}" class="img-fluid" alt="{{ prev.title }} icon">
+                    <img src="{{ prev._icon_image }}" class="img-fluid" alt="{{ prev.title }} icon">
                   </div>
-                  <span class="d-block btn btn-bordered">&lt; {{ prev.title }}</a></span> 
+                  <span class="d-block btn btn-bordered">&lt; {{ prev.title }}</a></span>
               {% endif %}
             </li>
             <li class="nav-item">
               {% if next %}
                 <a href="{{ next.url}}" class="nav-link">
                   <div class="bg-light round">
-                    <img src="{{ next.icon_image }}" class="img-fluid" alt="{{ next.title }} icon">
+                    <img src="{{ next._icon_image }}" class="img-fluid" alt="{{ next.title }} icon">
                   </div>
                   <span class="d-block btn btn-bordered">{{ next.name }}&gt;</span>
                 </a>

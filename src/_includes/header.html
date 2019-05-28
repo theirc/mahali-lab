@@ -1,7 +1,7 @@
 <header id="page-header">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="{% tl home %}">Design &amp; Social Innovation<br>in the middle east</a>
+      <a class="navbar-brand" href="/">Design &amp; Social Innovation<br>in the middle east</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -24,14 +24,14 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="{% tl design-for-dignity %}" >{% translate topnav.design_for_dignity_link %}</a>
+            <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >Design for Dignity</a>
           </li>
           <li class="nav-item dropdown">
             <button id="language-menu" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {% translate topnav.language_selection %}
             </button>
-            {% include components/language-selector.html %}
+
           </li>
         </ul>
       </div>

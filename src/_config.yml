@@ -2,7 +2,8 @@
 title: Arabic Design Tool
 email: dev@ocupop.com
 url: ""
-permalink: /:title
+# permalink: /:title
+permalink: pretty
 
 # Social sharing
 description:
@@ -17,8 +18,8 @@ collections:
     output: true
   tools:
     output: true
-  posts: 
-    output: true  
+  posts:
+    output: true
 
 
 # Google Analytics
@@ -26,14 +27,14 @@ analytics_code:
 
 # Build settings
 safe: false
-source: src
+sass:
+  # style: compressed
+  sass_dir: _scss
 
-
-gems:
-  - jekyll-multiple-languages-plugin
 
 # Localization
 languages: ["ar", "en"]
 exclude_from_localizations: ["assets", "js"]
+
 
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
