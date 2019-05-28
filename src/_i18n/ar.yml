@@ -5,6 +5,11 @@ langs:
   en: "الإنجليزية"
 titles:
   home: "Mahali (عربى)"
+
+headings:
+  more_tools: المزيد من الأدوات
+messages:
+  no_downloads: لا التنزيلات
 cta:
   find_tools: البحث عن الأدوات
 topnav:

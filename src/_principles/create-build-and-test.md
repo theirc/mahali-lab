@@ -13,5 +13,8 @@ ar:
     حتى يكون على حق. التفاصيل مهمة - تفشل الأفكار العظيمة ذات العيوب الصغيرة
 _icon_image: /img/create-build-test.svg
 _order_number: 3
+
+permalink: /create-build-and-test/
+permalink_en: /create-build-and-test/
 ---
 

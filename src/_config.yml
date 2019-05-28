@@ -1,7 +1,7 @@
 # Site settings
 title: Arabic Design Tool
 email: dev@ocupop.com
-url: ""
+baseurl: ""
 permalink: pretty
 
 # Social sharing
@@ -33,6 +33,7 @@ sass:
 
 # Localization
 languages: ["ar", "en"]
+default_lang: ar
 exclude_from_localizations: ["assets", "js"]
 
 

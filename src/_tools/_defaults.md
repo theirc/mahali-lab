@@ -1,18 +1,17 @@
 ---
 layout: tool
-name:
-description:
+en:
+  name:
+  description:
+  tool_document:
+ar:
+  name:
+  description:
+  tool_document:
 grid_image:
 banner_image:
-principle:
-tool_document:
-what_and_how_text:
-example_description:
-example_images:
-  - image:
-testimonial:
-  - quote_text:
-    author:
+principle: be-open
 case_study: false
 related_tools:
+  -
 ---

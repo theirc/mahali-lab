@@ -438,7 +438,8 @@ module Jekyll
       lang         = key[1] || site.config[        'lang']
       default_lang =           site.config['default_lang']
       baseurl      =           site.baseurl
-      pages        =           site.pages
+      collections  = site.collections.values.collect{|x| x.docs}.flatten
+      pages        = site.pages + collections
       url          = "";
 
       if default_lang != lang

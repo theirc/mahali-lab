@@ -15,23 +15,39 @@
     <div class="row">
       <div class="col-12">
         <div class="content text-center">
-          <ul class="nav justify-content-center {% if prev.url && next.url %}justify-content-lg-between{% else %} justify-content-lg-center{% endif %}">
+          <ul class="nav justify-content-center {% if prev.url && next.url %}justify-content-lg-between{% else %} justify-content-lg-center{% endif %}{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
             <li class="nav-item">
               {% if prev %}
+                {% case site.lang %}
+                  {% when 'en' %}
+                    {% assign prev_name = prev.en.name %}
+                    {% assign prev_description = prev.en.description %}
+                  {% when 'ar' %}
+                    {% assign prev_name = prev.ar.name %}
+                    {% assign prev_description = prev.ar.description %}
+                {% endcase %}
                 <a href="{{ prev.url}}" class="nav-link">
                   <div class="bg-light round">
-                    <img src="{{ prev._icon_image }}" class="img-fluid" alt="{{ prev.title }} icon">
+                    <img src="{{ prev._icon_image }}" class="img-fluid" alt="{{ prev_name }} icon">
                   </div>
-                  <span class="d-block btn btn-bordered">&lt; {{ prev.title }}</a></span>
+                  <span class="d-block btn btn-bordered">{{ prev_name }}</a></span>
               {% endif %}
             </li>
             <li class="nav-item">
               {% if next %}
+                {% case site.lang %}
+                  {% when 'en' %}
+                    {% assign next_name = next.en.name %}
+                    {% assign next_description = next.en.description %}
+                  {% when 'ar' %}
+                    {% assign next_name = next.ar.name %}
+                    {% assign next_description = next.ar.description %}
+                {% endcase %}
                 <a href="{{ next.url}}" class="nav-link">
                   <div class="bg-light round">
-                    <img src="{{ next._icon_image }}" class="img-fluid" alt="{{ next.title }} icon">
+                    <img src="{{ next._icon_image }}" class="img-fluid" alt="{{ next_name }} icon">
                   </div>
-                  <span class="d-block btn btn-bordered">{{ next.name }}&gt;</span>
+                  <span class="d-block btn btn-bordered">{{ next_name }}</span>
                 </a>
               {% endif %}
             </li>

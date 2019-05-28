@@ -9,5 +9,8 @@ ar:
   description: النظر في من سيقوم بتنفيذ ونشر البرنامج الخاص بك. نسعى جاهدين للحصول على حياة خاصة به.
 _icon_image: /img/scale-and-sustain.svg
 _order_number: 4
+
+permalink: /scale-and-sustain/
+permalink_en: /scale-and-sustain/
 ---
 
