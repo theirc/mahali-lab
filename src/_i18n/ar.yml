@@ -1,5 +1,8 @@
+global:
+  title: التصميم والابتكار الاجتماعي في الشرق الأوسط
+  english: English
 langs:
-  en: "English"
+  en: "الإنجليزية"
 titles:
   home: "Mahali (عربى)"
 cta:
@@ -9,7 +12,7 @@ topnav:
   design_for_dignity_link: تصميم للكرامة
   language_selection: "اختيار اللغة"
 footer:
-  description: 
+  description:
   form_title: اتصل بنا
   email_label: عنوان بريد الكتروني
   message_label: رسالة

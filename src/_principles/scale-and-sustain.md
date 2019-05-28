@@ -1,5 +1,6 @@
 ---
 layout: principle
+namespace: scale-and-sustain
 en:
   name: Scale & Sustain
   description: 'Consider who will carry out and spread your program. Strive for it to have a life of its own.'

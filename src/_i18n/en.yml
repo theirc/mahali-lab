@@ -1,5 +1,8 @@
+global:
+  title: Design & Social Innovation in the middle east
+  arabic: عربى
 langs:
-  ar: "عربى"
+  ar: "Arabic"
 titles:
   home: "Mahali (English)"
 cta:
@@ -10,7 +13,7 @@ topnav:
   language_selection: "Language Selector"
 footer:
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ab sed natus ipsam. Deserunt ex veritatis optio eum ut vitae blanditiis, rerum itaque temporibus architecto placeat dolor impedit quaerat eius?
-  form_title: Contact Us
-  email_label: Email Address
+  form_title: Contact
+  email_label: Email
   message_label:  Message
   submit_label: Send

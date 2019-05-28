@@ -1,7 +1,7 @@
 <header id="page-header">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="/">Design &amp; Social Innovation<br>in the middle east</a>
+      <a class="navbar-brand" href="/">{% translate global.title %}</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -12,26 +12,35 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle {% if page.url contains '/principles' %}active{% endif %}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle {% if page.url contains '/principles' %}active{% endif %}" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {% translate topnav.tools_link %}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% assign principles = site.principles | sort: 'order_number' %}
               {% for principle in principles  %}
-                <a class="dropdown-item" href="{{ principle.url }}">{{ principle.name }}</a>
-              {% endfor %}
+                {% assign namespace = principle.namespace %}
+                {% case site.lang %}
+                  {% when 'en' %}
+                    {% assign name = principle.en.name %}
+                  {% when 'ar' %}
+                    {% assign name = principle.ar.name %}
+                {% endcase %}
+                <a class="dropdown-item" href="/">{{ name }}</a>
+                {% endfor %}
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >Design for Dignity</a>
+            <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >{% translate topnav.design_for_dignity_link %}</a>
           </li>
-          <li class="nav-item dropdown">
-            <button id="language-menu" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              {% translate topnav.language_selection %}
-            </button>
-
+          <li class="nav-item">
+            {% if site.lang == "ar" %}
+            {% capture link_english %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+            <a href="{{ link_english }}" class="nav-link btn btn-secondary btn-block">{% t global.english %}</a>
+            {% elsif site.lang == "en" %}
+            {% capture link_arabic %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            <a href="{{ link_arabic }}" class="nav-link btn btn-secondary btn-block">{% t global.arabic %}</a>
+            {% endif %}
           </li>
         </ul>
       </div>
