@@ -37,4 +37,4 @@ default_lang: ar
 exclude_from_localizations: ["assets", "js"]
 
 
-placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
+placeholder_image: https://via.placeholder.com/1000x1000/000/222?text=placeholder

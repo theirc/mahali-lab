@@ -4,16 +4,16 @@ layout: default
 {% assign current_principle = site.principles | where: "slug", page.principle | first %}
 
 {% case site.lang %}
-{% when 'en' %}
-{% assign name = page.en.name %}
-{% assign description = page.en.description %}
-{% assign tool_document = page.en.tool_document %}
-{% assign principle_name = current_principle.en.name %}
-{% when 'ar' %}
-{% assign name = page.ar.name %}
-{% assign description = page.ar.description %}
-{% assign tool_document = page.ar.tool_document %}
-{% assign principle_name = current_principle.ar.name %}
+  {% when 'en' %}
+    {% assign name = page.en.name %}
+    {% assign description = page.en.description %}
+    {% assign tool_document = page.en.tool_document %}
+    {% assign principle_name = current_principle.en.name %}
+  {% when 'ar' %}
+    {% assign name = page.ar.name %}
+    {% assign description = page.ar.description %}
+    {% assign tool_document = page.ar.tool_document %}
+    {% assign principle_name = current_principle.ar.name %}
 {% endcase %}
 
 {% if page.case_study == false %}
@@ -24,25 +24,25 @@ layout: default
           <div class="content">
             <h1>{{ name }}</h1>
             <p>{{ description }}</p>
-            <a href="{{ tool_document }}">Download Tool</a>
+            <a href="{{ tool_document }}">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 {% else %}
-  <div class="bg-image aspect-hero" style="background-image: url({{ site.placeholder_image }})"></div>
+  <div class="bg-image aspect-hero" style="background-image: url({{ tool.banner_image | default: site.placeholder_image }})"></div>
   <section class="bg-light">
     <div class="container ">
       <div class="row">
         <div class="col-12 col-lg-10 mx-lg-auto">
           <div class="content text-center">
             <div class="tool-intro">
-              
+
               <div class="tool-principle">
                 <p class="mb-0">{{ principle_name }}</p>
                 <div class="bg-icon">
-                  <img src="{{ current_principle.icon_image }}" class="img-fluid tool-icon" alt="{{ principle_name }} icon">
+                  <img src="{{ current_principle._icon_image }}" class="img-fluid tool-icon" alt="{{ principle_name }} icon">
                 </div>
               </div>
               <h1>{{ name }}</h1>
@@ -54,12 +54,12 @@ layout: default
                 {% translate_file test %}
               {% endunless %}
 
-              
+
               <hr>
               {% endcomment %}
 
               <p class="mb-0">{{ description }}</p>
-              
+
             </div>
           </div>
         </div>
@@ -67,19 +67,20 @@ layout: default
       <div class="row justify-content-center">
         <div class="col-lg-4">
           <div class="content text-center">
-            <a href="{{ tool_document }}">
-              <img src="{{ page.grid_image }}" class="img-fluid mb-4" alt="{{ name }} image" />
-            </a>
-            <a href="{{ tool_document }}" class="btn btn-bordered">
-              Download Tool
-            </a>
+            {% if page.grid_image %}
+              <a href="{{ tool_document }}">
+                <img src="{{ page.grid_image }}" class="img-fluid mb-4" alt="{{ name }} image" />
+              </a>
+            {% endif %}
+            <a href="{{ tool_document }}" class="btn btn-bordered">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-8 mx-lg-auto">
           <div class="content text-center">
-            <h2 class="mt-5">What and how</h2>
+
+            <h2 class="mt-5">What and How</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, modi repudiandae? Quos, quidem quis. Pariatur
               perferendis doloremque ipsam impedit vero.</p>
           </div>

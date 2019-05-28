@@ -1,6 +1,6 @@
 <header id="page-header">
   <nav class="navbar navbar-expand-lg">
-    <div class="container">
+    <div class="container{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
       <a class="navbar-brand" href="{% translate_link home %}">{% translate global.title %}</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
         <span class="bar close-three"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto{% unless site.lang =='en' %}ml-0 mr-auto flex-row-reverse{% endunless %}">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {% if page.url contains '/principles' %}active{% endif %}" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -32,7 +32,7 @@
           <li class="nav-item">
             <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >{% translate topnav.design_for_dignity_link %}</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item{% unless site.lang =='en' %} mr-4{% endunless %}">
             {% if site.lang == "ar" %}
             {% capture link_english %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
             <a href="{{ link_english }}" class="nav-link btn btn-secondary btn-block">{% t global.english %}</a>

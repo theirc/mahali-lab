@@ -11,6 +11,7 @@ messages:
   no_downloads: No Downloads
 cta:
   find_tools: Find Tools
+  download_tool: Download Tool
 topnav:
   tools_link: Community Tools
   design_for_dignity_link: Design for Dignity
