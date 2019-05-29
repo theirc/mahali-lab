@@ -7,12 +7,12 @@ en:
   name: Context tool
   description:
   tool_document:
-  _content_html: "<strong>Bold Words</strong>"
+  content_html: "<strong>Bold Words</strong>"
 ar:
   name: أداة السياق
   description:
   tool_document:
-  _content_html: "<strong>كلمات بالخط العريض</strong>"
+  content_html: "<strong>كلمات بالخط العريض</strong>"
 
 grid_image:
 banner_image:
