@@ -81,13 +81,28 @@ layout: default
     </div>
   </section>
 
-  {{ case_study }}
-
-  {% capture case_study_include %}tools/{{page.namespace}}.html{% endcapture %}
-  {% capture case_study_content %}{% translate_file case_study_include %}{% endcapture %}
-  {% unless case_study_content contains "Liquid error" %}
-    {% translate_file case_study_include %}
-  {% endunless %}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {{ case_study }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% capture case_study_include %}tools/{{page.namespace}}.html{% endcapture %}
+          {% capture case_study_content %}{% translate_file case_study_include %}{% endcapture %}
+          {% unless case_study_content contains "Liquid error" %}
+            {% translate_file case_study_include %}
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="bg-primary">
     <div class="container">
