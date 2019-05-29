@@ -26,24 +26,24 @@ permalink_en: /
       {% for principle in principles  %}
         {% case site.lang %}
           {% when 'en' %}
-            {% assign name = principle.en.name %}
-            {% assign description = principle.en.description %}
+            {% assign principle_name = principle.en.name %}
+            {% assign principle_description = principle.en.description %}
           {% when 'ar' %}
-            {% assign name = principle.ar.name %}
-            {% assign description = principle.ar.description %}
+            {% assign principle_name = principle.ar.name %}
+            {% assign principle_description = principle.ar.description %}
         {% endcase %}
         <div class="card principle-card text-center col-md-6 col-lg-4">
           <div class="card-header">
-            <h3><strong>{{ name }}</strong></h3>
+            <h3><strong>{{ principle_name }}</strong></h3>
           </div>
           <div class="card-body">
             <div class="bg-light icon-container">
-              <img src="{{ principle._icon_image }}" class="rounded img-fluid" alt="{{ principle.name }} image">
+              <img src="{{ principle._icon_image }}" class="rounded img-fluid" alt="{{ principle_name }} image">
             </div>
-            <p><small>{{ description }}</small></p>
+            <p><small>{{ principle_description }}</small></p>
           </div>
           <div class="card-footer">
-            <a href="{{ principle.url }}">
+            <a href="{% tl principle.namespace %}">
               {% translate cta.find_tools %}
             </a>
           </div>

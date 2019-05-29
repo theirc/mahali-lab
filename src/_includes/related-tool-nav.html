@@ -1,27 +1,35 @@
 {% assign current_tool = page.slug %}
 {% assign related =  site.tools | where: "related_tools", current_tool %}
 
+{% if related.size > 0 %}
 <section class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="content text-center">
-          <h4>Related Tools:</h4>
+          <h4>{% translate headings.related_tools %}</h4>
         </div>
       </div>
     </div>
     <div class="row justify-content-center">
       {% for tool in related %}
+      {% case site.lang %}
+        {% when 'en' %}
+          {% assign tool_name = page.en.name %}
+        {% when 'ar' %}
+        {% assign tool_name = page.ar.name %}
+      {% endcase %}
       <div class="col-lg-4">
         <div class="content text-center">
-          <a href="{{ tool.url }}" class="btn btn-bordered">{{ tool.name }}</a>
+          <a href="{% tl tool.namespace %}" class="btn btn-bordered">{{ tool_name }}</a>
         </div>
       </div>
       {% endfor %}
-    </div>      
-          
-      
-   
+    </div>
+
+
+
     </div>
   </div>
 </section>
+{% endif %}

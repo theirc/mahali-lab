@@ -7,11 +7,13 @@ titles:
   home: "Mahali (English)"
 headings:
   more_tools: More Tools
+  related_tools: Related Tools
 messages:
   no_downloads: No Downloads
 cta:
   view_tool: Explore Tool
   download_tool: Download Tool
+  find_tools: Find Tools
 topnav:
   tools_link: Community Tools
   design_for_dignity_link: Design for Dignity

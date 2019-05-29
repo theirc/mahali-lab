@@ -8,11 +8,13 @@ titles:
 
 headings:
   more_tools: المزيد من الأدوات
+  related_tools: أدوات ذات صلة
 messages:
   no_downloads: لا التنزيلات
 cta:
   view_tool: البحث عن الأدوات
   download_tool: أداة التنزيل
+  find_tools: البحث عن الأدوات
 topnav:
   tools_link: أدوات المجتمع
   design_for_dignity_link: تصميم للكرامة
