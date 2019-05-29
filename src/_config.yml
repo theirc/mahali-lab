@@ -38,3 +38,19 @@ exclude_from_localizations: ["assets", "js"]
 
 
 placeholder_image: https://via.placeholder.com/1200x900/000/222?text=placeholder
+
+_options:
+  content:
+    undo: true
+    redo: true
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    bold: true
+    italic: true
+    numberedlist: true
+    code: true
+    table: true
+    left: text-left
+    center: text-center
+    right: text-right
+    image: true
+    embed: true
