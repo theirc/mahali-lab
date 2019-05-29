@@ -8,13 +8,13 @@ layout: default
     {% assign name = page.en.name %}
     {% assign description = page.en.description %}
     {% assign tool_document = page.en.tool_document %}
-    {% assign content_html = page.en._content_html %}
+    {% assign case_study = page.en.case_study_html %}
     {% assign principle_name = current_principle.en.name %}
   {% when 'ar' %}
     {% assign name = page.ar.name %}
     {% assign description = page.ar.description %}
     {% assign tool_document = page.ar.tool_document %}
-    {% assign content_html = page.ar._content_html %}
+    {% assign content_html = page.ar.case_study_html %}
     {% assign principle_name = current_principle.ar.name %}
 {% endcase %}
 
@@ -84,16 +84,16 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <a href="cloudcannon:#en.content_html" data-cms-editor-link-style="modal">Edit the English Case Study</a>
+          <a href="cloudcannon:#en.case_study_html" data-cms-editor-link-style="modal" class="btn btn-primary btn-block">Edit the English Case Study</a>
         </div>
         <div class="col-6">
-          <a href="cloudcannon:#ar.content_html" data-cms-editor-link-style="modal">Edit the Arabic Case Study</a>
+          <a href="cloudcannon:#ar.case_study_html" data-cms-editor-link-style="modal" class="btn btn-primary btn-block">Edit the Arabic Case Study</a>
         </div>
       </div>
     </div>
   </section>
 
-  {{ content_html }}
+  {{ case_study }}
 
   <section class="bg-primary">
     <div class="container">
