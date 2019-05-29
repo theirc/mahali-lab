@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html {% unless site.lang =='en' %}dir="RTL"{% endunless %}>
   {% include head.html %}
-  <body class="{{ page.layout }}">
+  <body class="{{ page.layout }}{% if site.lang == 'en' %} english{% endif %}">
     {% include header.html %}
     <main id="page-content">
       {{ content }}
