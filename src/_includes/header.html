@@ -1,6 +1,6 @@
 <header id="page-header">
   <nav class="navbar navbar-expand-lg">
-    <div class="container{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
+    <div class="container">
       <a class="navbar-brand" href="{% translate_link home %}">{% translate global.title %}</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
         <span class="bar close-three"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto{% unless site.lang =='en' %}ml-0 mr-auto flex-row-reverse{% endunless %}">
+        <ul class="navbar-nav ml-auto{% unless site.lang =='en' %}ml-0 mr-auto{% endunless %}">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle {% if page.url contains '/principles' %}active{% endif %}" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">

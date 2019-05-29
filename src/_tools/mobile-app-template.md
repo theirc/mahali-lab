@@ -1,10 +1,13 @@
 ---
 layout: tool
+namespace: mobile-app-template
+permalink: /tools/mobile-app-template/
+permalink_en: /tools/mobile-app-template/
 en:
   name: Mobile App Template
   description:
   tool_document:
-ar: 
+ar:
   name: خلاط فكرة
   description:
   tool_document:

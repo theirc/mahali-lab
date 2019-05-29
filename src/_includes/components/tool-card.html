@@ -4,11 +4,11 @@
       <h2 class="mt-3"><strong>{{ tool_name }}</strong></h2>
     </div>
     <div class="card-body text-center">
-      <img src="{{ tool.grid_image }}" class="img-fluid" alt="{{ tool_name }} image">
+      <img src="{{ tool.grid_image | default: site.placeholder_image }}" class="img-fluid" alt="{{ tool_name }} image">
       <p class="mt-5">{{ tool_description }}</p>
     </div>
     <div class="card-footer">
-      <a href="{{ tool.url }}" class="btn btn-bordered">{% translate cta.find_tools %}</a>
+      <a href="{% tl tool.namespace %}" class="btn btn-bordered">{% translate cta.view_tool %}</a>
     </div>
   </div>
 {% else %}
@@ -26,10 +26,10 @@
     </div>
     <div class="card-footer d-flex text-uppercase">
       {% if tool.ar.tool_document %}
-      <a href="{{ tool.ar.tool_document }}" class="btn"><i class="fas fa-download"></i> عربى</a>
+      <a href="{{ tool.ar.tool_document }}" class="btn" download><i class="fas fa-download"></i> عربى</a>
       {% endif %}
       {% if tool.ar.tool_document %}
-      <a href="{{ tool.en.tool_document }}" class="btn"><i class="fas fa-download"></i> English</a>
+      <a href="{{ tool.en.tool_document }}" class="btn" download><i class="fas fa-download"></i> English</a>
       {% endif %}
       {% unless tool.ar.tool_document or tool.en.tool_document %}
       <p class="p-2 text-center m-auto">{% translate messages.no_downloads %}</p>

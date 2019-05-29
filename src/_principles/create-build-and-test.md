@@ -4,8 +4,7 @@ namespace: create-build-and-test
 en:
   name: Create Build & Test
   description: >-
-    Prototype and evaluate a range of ideas. Learn, iterate and refine with
-    users until it is right. Details matter - great ideas with small flaws fail.
+    Prototype and evaluate a range of ideas. Learn, iterate and refine with users until it is right. Details matter &mdash; great ideas with small flaws fail.
 ar:
   name: إنشاء بناء واختبار
   description: >-

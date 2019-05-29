@@ -24,7 +24,7 @@ layout: default
                   {% assign name = principle.ar.name %}
               {% endcase %}
               <li class="nav-item">
-                <a href="{{ principle.url }}" class="nav-link {% if page.url == principle.url %}active{% endif %}">
+                <a href="{% tl principle.namespace %}" class="nav-link {% if page.url == principle.url %}active{% endif %}">
                   <img src="{{ principle._icon_image}}" class="img-fluid" alt="{{ name}} image">
                 </a>
               </li>

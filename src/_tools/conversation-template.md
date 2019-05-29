@@ -1,10 +1,13 @@
 ---
 layout: tool
+namespace: conversation-template
+permalink: /tools/conversation-template/
+permalink_en: /tools/conversation-template/
 en:
   name: Conversation template
   description:
   tool_document:
-ar: 
+ar:
   name: قالب المحادثة
   description:
   tool_document:

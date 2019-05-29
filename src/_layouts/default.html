@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html {% unless site.lang =='en' %}dir="RTL"{% endunless %}>
   {% include head.html %}
   <body class="{{ page.layout }}">
     {% include header.html %}

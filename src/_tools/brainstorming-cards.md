@@ -1,7 +1,8 @@
 ---
 layout: tool
-# permalink: /tools/brainstorming-cards/
-# permalink_en: /tools/brainstorming-cards/
+namespace: brainstorming-cards
+permalink: /tools/brainstorming-cards/
+permalink_en: /tools/brainstorming-cards/
 en:
   name: Brainstorming Cards
   description:

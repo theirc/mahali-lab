@@ -3,7 +3,7 @@ layout: principle
 namespace: look-and-think
 en:
   name: Look & Think
-  description: 'Put yourself in your user’s shoes. Identify their problems and values.'
+  description: Put yourself in your user’s shoes. Identify their problems and values.
 ar:
   name: الشكل والتفكير
   description: ضع نفسك في حذاء المستخدم الخاص بك. تحديد مشاكلهم وقيمهم.

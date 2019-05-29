@@ -1,5 +1,8 @@
 ---
 layout: tool
+namespace: mindsets-in-space
+permalink: /tools/mindsets-in-space/
+permalink_en: /tools/mindsets-in-space/
 en:
   name: Mindsets in Space
   description: 'This is an inclusive way to frame a community challenge and explore how different stakeholders experience the problem.'

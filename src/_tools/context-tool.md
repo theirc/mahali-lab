@@ -1,6 +1,9 @@
 ---
 layout: tool
-en: 
+namespace: context-tools
+permalink: /tools/context-tools/
+permalink_en: /tools/context-tools/
+en:
   name: Context tool
   description:
   tool_document:
@@ -9,8 +12,8 @@ ar:
   description:
   tool_document:
 
-grid_image: https://via.placeholder.com/768x500
-banner_image: https://via.placeholder.com/1800x1000
+grid_image:
+banner_image:
 principle: scale-and-sustain
 case_study: true
 related_tools:

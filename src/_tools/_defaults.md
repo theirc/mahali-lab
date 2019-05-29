@@ -1,5 +1,8 @@
 ---
 layout: tool
+namespace:
+permalink:
+permalink_en:
 en:
   name:
   description:

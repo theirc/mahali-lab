@@ -1,10 +1,13 @@
 ---
 layout: tool
+namespace: solution-share-out
+permalink: /tools/solution-share-out/
+permalink_en: /tools/solution-share-out/
 en:
-  name: Idea Blender
+  name: Solution Share Out
   description:
   tool_document:
-ar: 
+ar:
   name: حصة الحل خارج
   description:
   tool_document:

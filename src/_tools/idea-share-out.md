@@ -1,10 +1,13 @@
 ---
 layout: tool
+namespace: idea-share-out
+permalink: /tools/idea-share-out/
+permalink_en: /tools/idea-share-out/
 en:
   name: Idea Share Out
   description:
   tool_document:
-ar: 
+ar:
   name: فكرة مشاركة خارج
   description:
   tool_document:

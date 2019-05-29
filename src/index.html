@@ -5,12 +5,12 @@ permalink: /
 permalink_en: /
 ---
 
-<section class="bg-image aspect-section overlap-bottom" style="background-image: url(/assets/img/Farah_NGO-Practitioner-Sitting-with-Parent-Student-and-Teacher.jpg)">
+<section class="bg-image aspect-section overlap-bottom" style="background-image: url(/img/Farah_NGO-Practitioner-Sitting-with-Parent-Student-and-Teacher.jpg)">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 mx-lg-auto">
-        <div class="content text-center ">
-          <div class="p-4 bg-light-opacity">
+        <div class="content">
+          <div class="p-5 bg-light-opacity">
             {% translate_file home/intro.html %}
           </div>
         </div>
@@ -21,7 +21,7 @@ permalink_en: /
 
 <section class="bg-light">
   <div class="container overlap-top">
-    <div class="card-deck card-deck-25{% unless site.lang =='en' %} flex-row-reverse{% endunless %}">
+    <div class="card-deck card-deck-25">
       {% assign principles = site.principles | sort: '_order_number' %}
       {% for principle in principles  %}
         {% case site.lang %}
@@ -49,6 +49,20 @@ permalink_en: /
           </div>
         </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-lg-auto">
+        <div class="content">
+          <div class="p-4 bg-light-opacity">
+            {% translate_file home/communities.html %}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

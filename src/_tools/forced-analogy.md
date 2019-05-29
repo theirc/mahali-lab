@@ -1,11 +1,14 @@
 ---
 layout: tool
-name: 
+namespace: forced-analogy
+permalink: /tools/forced-analogy/
+permalink_en: /tools/forced-analogy/
+
 en:
   name: Forced Analogy
   description:
   tool_document:
-ar: 
+ar:
   name: القياس القسري
   description:
   tool_document:

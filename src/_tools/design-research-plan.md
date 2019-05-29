@@ -1,10 +1,13 @@
 ---
 layout: tool
+namespace: design-research-plan
+permalink: /tools/design-research-plan/
+permalink_en: /tools/design-research-plan/
 en:
   name: Design Research Plan
   description:
   tool_document:
-ar: 
+ar:
   name: خطة بحث التصميم
   description:
   tool_document:
