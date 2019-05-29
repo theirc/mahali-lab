@@ -1,8 +1,8 @@
 ---
 layout: tool
-namespace: context-tools
-permalink: /tools/context-tools/
-permalink_en: /tools/context-tools/
+namespace: context-tool
+permalink: /tools/context-tool/
+permalink_en: /tools/context-tool/
 en:
   name: Context tool
   description:
