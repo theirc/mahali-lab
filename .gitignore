@@ -12,4 +12,4 @@ dist
 # Packages
 node_modules
 
-vendor
+vendor/bundle
