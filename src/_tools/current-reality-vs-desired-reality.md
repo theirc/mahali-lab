@@ -1,8 +1,8 @@
 ---
 layout: tool
-namespace: current-reality-desired-reality
-permalink: /tools/current-reality-desired-reality/
-permalink_en: /tools/current-reality-desired-reality/
+namespace: current-reality-vs-desired-reality
+permalink: /tools/current-reality-vs-desired-reality/
+permalink_en: /tools/current-reality-vs-desired-reality/
 en:
   name: Current reality vs. desired reality
   description:
