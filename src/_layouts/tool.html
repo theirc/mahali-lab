@@ -48,18 +48,6 @@ layout: default
                 </div>
               </div>
               <h1>{{ name }}</h1>
-              {% comment %}
-
-              {% capture test %}tools/{{page.slug}}.html{% endcapture %}
-              {% capture test_content %}{% translate_file test %}{% endcapture %}
-              {% unless test_content contains "Liquid error" %}
-                {% translate_file test %}
-              {% endunless %}
-
-
-              <hr>
-              {% endcomment %}
-
               <p class="mb-0">{{ description }}</p>
 
             </div>
@@ -94,6 +82,12 @@ layout: default
   </section>
 
   {{ case_study }}
+
+  {% capture case_study_include %}tools/{{page.namespace}}.html{% endcapture %}
+  {% capture case_study_content %}{% translate_file case_study_include %}{% endcapture %}
+  {% unless case_study_content contains "Liquid error" %}
+    {% translate_file case_study_include %}
+  {% endunless %}
 
   <section class="bg-primary">
     <div class="container">
