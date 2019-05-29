@@ -8,11 +8,13 @@ layout: default
     {% assign name = page.en.name %}
     {% assign description = page.en.description %}
     {% assign tool_document = page.en.tool_document %}
+    {% assign content_html = page.en._content_html %}
     {% assign principle_name = current_principle.en.name %}
   {% when 'ar' %}
     {% assign name = page.ar.name %}
     {% assign description = page.ar.description %}
     {% assign tool_document = page.ar.tool_document %}
+    {% assign content_html = page.ar._content_html %}
     {% assign principle_name = current_principle.ar.name %}
 {% endcase %}
 
@@ -76,40 +78,22 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-lg-auto">
-          <div class="content text-center">
-
-            <h2 class="mt-5">What and How</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, modi repudiandae? Quos, quidem quis. Pariatur
-              perferendis doloremque ipsam impedit vero.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
-  <section>
+  <section class="editor-nav">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 mx-lg-auto">
-          <div class="content text-center">
-            <h3><strong>Example</strong></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quaerat esse dolore quam inventore praesentium
-              maiores, eveniet voluptates deleniti ullam.</p>
-          </div>
+        <div class="col-6">
+          <a href="cloudcannon:#en._content_html" data-cms-editor-link-style="modal">Edit the English Case Study</a>
         </div>
-      </div>
-      <div class="row">
-        {% for i in (1..3) %}
-          <div class="col-lg-4">
-            <div class="content">
-              <a href="#" data-href="https://via.placeholder.com/1000" class="venobox bg-image aspect-4x3" style="background-image: url(https://via.placeholder.com/500x300)"></a>
-            </div>
-          </div>
-        {% endfor %}
+        <div class="col-6">
+          <a href="cloudcannon:#ar._content_html" data-cms-editor-link-style="modal">Edit the Arabic Case Study</a>
+        </div>
       </div>
     </div>
   </section>
+
+  {{ content_html }}
 
   <section class="bg-primary">
     <div class="container">

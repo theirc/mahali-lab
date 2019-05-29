@@ -29,3 +29,14 @@
 // Pages
 @import "pages/homepage";
 @import "pages/tool";
+
+// Editor Links
+.editor-nav,
+.editor-link {
+  display: none;
+}
+
+.cms-editor-active .editor-link,
+.cms-editor-active .editor-nav {
+  display: block;
+}
