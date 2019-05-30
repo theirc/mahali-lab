@@ -20,7 +20,7 @@ topnav:
   design_for_dignity_link: تصميم للكرامة
   language_selection: "اختيار اللغة"
 footer:
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ab sed natus ipsam. Deserunt ex veritatis optio eum ut vitae blanditiis, rerum itaque temporibus architecto placeat dolor impedit quaerat eius?
+  description: طوّر هذا المشروع من قبل <a href="https://airbel.rescue.org/" target="_blank"> اللجنة الدولية للإغاثة</a> (IRC)، وموّل بدعم من وزارة التنمية الدولية في المملكة المتحدة (DFID)، وبالتعاون مع شبكة ستارت (Start).
   form_title: اتصل بنا
   email_label: عنوان بريد الكتروني
   message_label: رسالة

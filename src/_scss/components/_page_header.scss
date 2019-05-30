@@ -19,11 +19,11 @@
       @include media-breakpoint-up(lg) {
         &::before {
           display: block;
-          bottom: -8px;
+          bottom: -2px;
           left: -3px;
           top: auto;
           width: 100%;
-          height: 10px;
+          height: 8px;
         }
       }
     }
@@ -97,5 +97,13 @@
     &.close-three {
       opacity: 0;
     }
+  }
+}
+
+.dropdown-menu {
+  opacity: 0;
+  @include transition(1s);
+  &.show {
+    opacity: 1;
   }
 }

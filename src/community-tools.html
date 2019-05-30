@@ -4,7 +4,69 @@ title: Community Tools
 
 namespace: community-tools
 
-permalink: /الأدوات المجتمع
-permalink_en: /community-tools
+permalink: /الأدوات المجتمع/
+permalink_en: /community-tools/
 ---
 
+<section class="bg-image aspect-section overlap-bottom"
+  style="background-image: url(/img/Farah_NGO-Practitioner-Sitting-with-Parent-Student-and-Teacher.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-lg-auto">
+        <div class="content">
+          <div class="p-5 bg-light-opacity">
+            {% translate_file community-tools/intro.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light">
+  <div class="container overlap-top">
+    <div class="card-deck card-deck-25">
+      {% assign principles = site.principles | sort: '_order_number' %}
+      {% for principle in principles  %}
+      {% case site.lang %}
+      {% when 'en' %}
+      {% assign principle_name = principle.en.name %}
+      {% assign principle_description = principle.en.description %}
+      {% when 'ar' %}
+      {% assign principle_name = principle.ar.name %}
+      {% assign principle_description = principle.ar.description %}
+      {% endcase %}
+      <div class="card principle-card text-center col-md-6 col-lg-4">
+        <div class="card-header">
+          <h3><strong>{{ principle_name }}</strong></h3>
+        </div>
+        <div class="card-body">
+          <div class="bg-light icon-container">
+            <img src="{{ principle._icon_image }}" class="rounded img-fluid" alt="{{ principle_name }} image">
+          </div>
+          <p><small>{{ principle_description }}</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="{% tl principle.namespace %}">
+            {% translate cta.find_tools %}
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-lg-auto">
+        <div class="content">
+          <div class="p-4 bg-light-opacity">
+            {% translate_file community-tools/communities.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

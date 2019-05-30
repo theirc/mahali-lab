@@ -1,7 +1,12 @@
+{% if site.lang == 'en' %}
+  {% assign active_link = page.permalink_en %}
+{% else %}
+  {% assign active_link = page.permalink %}
+{% endif %}
 <header id="page-header">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="{% translate_link home %}">{% translate global.title %}</a>
+      <a class="navbar-brand" href="{% translate_link community-tools %}">{% translate global.title %}</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -12,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto{% unless site.lang =='en' %}ml-0 mr-auto{% endunless %}">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle {% if page.url contains '/principles' %}active{% endif %}" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle {% if page.namespace == 'community-tools' or page.layout == 'tool' or page.layout == 'principle' %}active{% endif %}" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {% translate topnav.tools_link %}
             </a>
@@ -30,7 +35,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.url == '/design-for-dignity' %}active{% endif %}" href="/design-for-dignity" >{% translate topnav.design_for_dignity_link %}</a>
+            <a class="nav-link {% if page.namespace == 'design-for-dignity' %}active{% endif %}" href="{% tl design-for-dignity %}" >{% translate topnav.design_for_dignity_link %}</a>
           </li>
           <li class="nav-item{% unless site.lang =='en' %} mr-4{% endunless %}">
             {% if site.lang == "ar" %}
