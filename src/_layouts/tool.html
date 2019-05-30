@@ -2,20 +2,17 @@
 layout: default
 ---
 {% assign current_principle = site.principles | where: "slug", page.principle | first %}
+{% capture what-how %}case-studies/{{page.namespace}}/what-how.html{% endcapture %}
+{% capture example %}case-studies/{{page.namespace}}/example.html{% endcapture %}
+{% capture media %}case-studies/{{page.namespace}}/media.html{% endcapture %}
 
 {% case site.lang %}
   {% when 'en' %}
-    {% assign name = page.en.name %}
-    {% assign description = page.en.description %}
-    {% assign tool_document = page.en.tool_document %}
-    {% assign case_study = page.en.case_study_html %}
-    {% assign principle_name = current_principle.en.name %}
+    {% assign tool = page.en %}
+    {% assign principle = current_principle.en %}
   {% when 'ar' %}
-    {% assign name = page.ar.name %}
-    {% assign description = page.ar.description %}
-    {% assign tool_document = page.ar.tool_document %}
-    {% assign content_html = page.ar.case_study_html %}
-    {% assign principle_name = current_principle.ar.name %}
+    {% assign tool = page.ar %}
+    {% assign principle = current_principle.ar %}
 {% endcase %}
 
 {% if page.case_study == false %}
@@ -24,31 +21,31 @@ layout: default
       <div class="row">
         <div class="col-12">
           <div class="content">
-            <h1>{{ name }}</h1>
-            <p>{{ description }}</p>
-            <a href="{{ tool_document }}">{% t cta.download_tool %}</a>
+            <h1>{{ tool.name }}</h1>
+            <p>{{ tool.purpose }}</p>
+            <a href="{{ tool.tool_document }}">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 {% else %}
-  <div class="bg-image aspect-hero" style="background-image: url({{ tool.banner_image | default: site.placeholder_image }})"></div>
+  <div class="bg-image aspect-hero" style="background-image: url({{ page.banner_image | default: site.placeholder_image }})"></div>
   <section class="bg-light">
     <div class="container ">
       <div class="row">
-        <div class="col-12 col-lg-10 mx-lg-auto">
+        <div class="col-12 col-lg-8 mx-lg-auto">
           <div class="content text-center">
             <div class="tool-intro">
 
               <div class="tool-principle">
-                <p class="mb-0">{{ principle_name }}</p>
+                <p class="mb-0">{{ principle.name }}</p>
                 <div class="bg-icon">
-                  <img src="{{ current_principle._icon_image }}" class="img-fluid tool-icon" alt="{{ principle_name }} icon">
+                  <img src="{{ current_principle._icon_image }}" class="img-fluid tool-icon" alt="{{ principle.name }} icon">
                 </div>
               </div>
-              <h1>{{ name }}</h1>
-              <p class="mb-0">{{ description }}</p>
+              <h1>{{ tool.name }}</h1>
+              <p class="mb-0">{{ tool.purpose }}</p>
 
             </div>
           </div>
@@ -56,58 +53,37 @@ layout: default
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-4">
-          <div class="content text-center">
-            {% if page.grid_image %}
-              <a href="{{ tool_document }}">
-                <img src="{{ page.grid_image }}" class="img-fluid mb-4" alt="{{ name }} image" />
+          <div class="text-center">
+            {% if tool.featured_image %}
+              <a href="{{ tool.tool_document }}">
+                <img src="{{ tool.featured_image }}" class="img-fluid mb-4" alt="{{ tool.name }} image" />
               </a>
             {% endif %}
-            <a href="{{ tool_document }}" class="btn btn-bordered">{% t cta.download_tool %}</a>
+            <a href="{{ tool.tool_document }}" class="btn btn-bordered">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="editor-nav">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <a href="cloudcannon:#en.case_study_html" data-cms-editor-link-style="modal" class="btn btn-primary btn-block">Edit the English Case Study</a>
-        </div>
-        <div class="col-6">
-          <a href="cloudcannon:#ar.case_study_html" data-cms-editor-link-style="modal" class="btn btn-primary btn-block">Edit the Arabic Case Study</a>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h3 class="mt-5">{% t headings.what_how %}</h3>
+          {% tf what-how %}
         </div>
       </div>
     </div>
   </section>
 
-  {% if case_study %}
-  <section>
+  <section id="example">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          {{ case_study }}
-        </div>
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          {% capture case_study_include %}tools/{{page.namespace}}.html{% endcapture %}
-          {% capture case_study_content %}{% translate_file case_study_include %}{% endcapture %}
-          {% unless case_study_content contains "Liquid error" %}
-            {% translate_file case_study_include %}
-          {% endunless %}
+          {% tf example %}
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-primary">
+
+  <section id="testimonial" class="bg-primary">
     <div class="container">
       <div class="container">
         <div class="row">
@@ -118,8 +94,8 @@ layout: default
           </div>
           <div class="col-8">
             <div class="content text-center">
-              <p class="mb-0 lead editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quos ullam sequi nemo! Corporis iure ipsam magnam delectus illo labore.</p>
-              <p class="mb-0"><small>&mdash;<em class="editable">FirstName</em></small></p>
+              <p class="mb-0 lead">{{ tool.testimonial.quote }}</p>
+              <p class="mb-0"><small>&mdash;<em>{{ tool.testimonial.author }}</em></small></p>
             </div>
           </div>
           <div class="col-2">
@@ -131,5 +107,32 @@ layout: default
       </div>
     </div>
   </section>
-  {% include related-tool-nav.html %}
+
+  <section id="media">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {% tf media %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if page.gallery %}
+  <section id="gallery">
+    <div class="container">
+      <div class="row">
+        {% for image in page.gallery %}
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="bg-image aspect-4x3 my-3" style="background-image: url({{ image.url }})"></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
 {% endif %}
+
+
+{% include related-tool-nav.html %}

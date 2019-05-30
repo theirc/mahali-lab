@@ -53,9 +53,11 @@ layout: default
               {% case site.lang %}
               {% when 'en' %}
                 {% assign tool_name = tool.en.name %}
+                {% assign tool_image = tool.en.featured_image %}
                 {% assign tool_description = tool.en.description %}
               {% when 'ar' %}
                 {% assign tool_name = tool.ar.name %}
+                {% assign tool_image = tool.ar.featured_image %}
                 {% assign tool_description = tool.ar.description %}
               {% endcase %}
 
@@ -85,9 +87,11 @@ layout: default
           {% case site.lang %}
             {% when 'en' %}
               {% assign tool_name = tool.en.name %}
+              {% assign tool_image = tool.en.featured_image %}
               {% assign tool_description = tool.en.description %}
             {% when 'ar' %}
               {% assign tool_name = tool.ar.name %}
+              {% assign tool_image = tool.ar.featured_image %}
               {% assign tool_description = tool.ar.description %}
           {% endcase %}
 

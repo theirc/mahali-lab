@@ -4,7 +4,7 @@
       <h2 class="mt-3"><strong>{{ tool_name }}</strong></h2>
     </div>
     <div class="card-body text-center">
-      <img src="{{ tool.grid_image | default: site.placeholder_image }}" class="img-fluid" alt="{{ tool_name }} image">
+      <img src="{{ tool_image | default: site.placeholder_image }}" class="img-fluid" alt="{{ tool_name }} image">
       <p class="mt-5">{{ tool_description }}</p>
     </div>
     <div class="card-footer">
@@ -17,7 +17,7 @@
       <h4><strong>{{ tool_name }}</strong></h4>
     </div>
     {% if tool.grid_image %}
-      <div class="bg-image aspect-4x3" style="background-image: url({{ tool.grid_image }})"></div>
+      <div class="bg-image aspect-4x3" style="background-image: url({{ tool_image }})"></div>
     {% endif %}
     <div class="card-body">
       {% if tool_description %}
