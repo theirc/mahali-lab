@@ -8,7 +8,6 @@ case_study: true
 en:
   name: Creative Mindsets
   purpose: 'These mindsets can encourage you to think in new creative ways when coming up with innovative ideas.'
-  what_how_html: "<p class='lead'>This tool<sup>*</sup> takes you or your group on a journey to space. Your rocketship is broken. Think about the specific challenges you might face in this situation and how these mindsets could help you overcome them.</p><p><sup>*</sup> <em>This tool was adapted from Ideo.org</em></p>"
   testimonial:
     quote: One of the most useful mindsets to me was accountability. Feeling that the issue at hand is mine, and that I’m the most relevant and appropriate person to solve it was always the main motivation for me to try harder. It forced me to come up with better ways to solve the problem to serve the need of as many people as I could. I’m sure if everyone felt accountable about the problems we face, our situation would be much better
     author: Shaimaa
@@ -17,7 +16,6 @@ en:
 ar:
   name: العقليّات المبتكرة
   purpose: تشجعك هذه العقليّات على التفكير في طرق إبداعيّة جديدة عند إيجاد أفكار مبتكرة.
-  what_how_html: "<p>تأخذك هذه الأداة -أو مجموعتك- في رحلة إلى الفضاء، تخيّل أن مركبتك الفضائية قد تحطمت، وفكّر في التحديات التي قد تواجهها في مثل هذه الحالة وكيف يمكن لهذه العقليّات أن تساعدك في تخطيها.</p><p><sup>*</sup> مستوحاة من شركة IDEO</p>"
   testimonial:
     quote: من أكثر عقليات الابتكار التي فادتني كثير هي الملكية ، شعوري التام بأن هاي المشكلة مشكلتي أنا، وكوني أنا أكثر شخص مناسب لابتكار الحل كان دائمًا هو الدافع الاساسي لأن أحاول أكثر وأبحث أكثر كي أساعد عدد أكبر، السبب هو أنه فعلًا، لو كل شخص شعر بالملكية تجاه مشاكلنا متأكدة ما حيكون الوضع هيك
     author: Shaimaa
