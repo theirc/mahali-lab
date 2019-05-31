@@ -11,7 +11,7 @@ en:
   testimonial:
     quote: User feedback can be confusing sometimes. This tool helped us reflect and plan the steps we should be taking after getting feedback from our target users. I think we also needed the tool to make sure the feedback was analyzed appropriately and that all team member are on the same page.
     author: Yazan
-  featured_image: /img/feedback-debrief/feedback-debrief-example-en.jpg
+  featured_image: /img/feedback-debrief/feedback-debrief-example-ar.jpg
   tool_document: /downloads/tools/feedback-debrief/feedback-debrief-en.pdf
 ar:
   name: ملخّص التغذية الرّاجعة
