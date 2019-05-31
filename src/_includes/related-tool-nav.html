@@ -23,7 +23,7 @@
           {% when 'ar' %}
           {% assign translation = tool.ar %}
           {% endcase %}
-          {% include components/tool-card.html namespace=tool_namespace %}
+          {% include components/tool-card.html namespace=tool_namespace explore=true %}
           {% endfor %}
         </div>
       </div>
