@@ -7,22 +7,22 @@ principle: be-open
 case_study: false
 en:
   name: Forced Analogy Cards
-  purpose: 
+  purpose: A set of 40 cards with pictures of different objects to help go through a forced analogy exercise.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
-  tool_document: 
+    quote:
+    author:
+  featured_image:
+  tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 ar:
-  name: 
-  purpose: 
+  name: بطاقات التشبيه
+  purpose: مجموعة مكوّنة من 40 بطاقة تحمل صورًا لأجسام مختلفة تساعد في اجتياز تمارين القياس الجبريّة.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
-  tool_document:
+    quote:
+    author:
+  featured_image:
+  tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 
