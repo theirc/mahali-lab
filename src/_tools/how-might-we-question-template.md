@@ -7,22 +7,22 @@ principle: look-and-think
 case_study: false
 en:
   name: How Might We Question Template
-  purpose: Frame your design challenge into an actionable problem statement. This will drive the rest of your problem-solving work.
+  purpose: A template that helps you frame your design challenge into and actionable problem statement that will drive the rest of your problem solving work.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  featured_image:
   tool_document: /downloads/tools/how-might-we-question-template/how-might-we-question-template-en.pdf
 ar:
   name: قالب سؤال "كيف يمكننا؟"
-  purpose: أطّر تحدي التصميم الخاص بك لتحويله إلى بيان المشكلة القابل للتنفيذ، والذي سيدفع بقية جهودك المتعلّقة بحل المشكلة.
+  purpose: يساعدك هذا النموذج في تأطير تحدي التصميم الخاص بك ليتحول إلى بيان المشكلة القابل للتنفيذ والذي سيدفع بقية جهودك المتعلّقة بحل المشكلة.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  featured_image:
   tool_document: /downloads/tools/how-might-we-question-template/how-might-we-question-template-ar.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 

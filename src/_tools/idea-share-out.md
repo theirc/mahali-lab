@@ -7,22 +7,22 @@ principle: create-build-and-test
 case_study: false
 en:
   name: Idea Share Out
-  purpose: 
+  purpose: A template that helps in articulating your solution by adding a name, a description and a sketch to your idea. You can come up with more than one. It's a useful tool to be used either to get feedback from stakeholders or to organize your thoughts before presenting your final solution
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
-  tool_document: 
+    quote:
+    author:
+  featured_image:
+  tool_document: /downloads/tools/idea-share-out/idea-share-out-en.pdf
 ar:
-  name: 
-  purpose: 
+  name: مشاركة الفكرة
+  purpose:
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
-  tool_document:
+    quote:
+    author:
+  featured_image:
+  tool_document: /downloads/tools/idea-share-out/idea-share-out-ar.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 
