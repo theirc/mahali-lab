@@ -3,18 +3,23 @@ layout: tool
 namespace: idea-blender
 permalink: /idea-blender/
 permalink_en: /tools/idea-blender/
+case_study: true
 en:
-  name: Idea Blender
-  description:
+  name:
+  purpose:
+    testimonial:
+      quote:
+      author:
+  featured_image:
   tool_document:
 ar:
-  name: خلاط فكرة
-  description:
+  name:
+  purpose:
   tool_document:
-
-grid_image:
+gallery:
+  - url:
+    caption:
+    caption_en:
 banner_image:
-principle: create-build-and-test
-case_study: true
 related_tools:
 ---

@@ -49,21 +49,21 @@ layout: default
             {% assign current_principle = page.slug %}
             {% assign principle_tools = site.tools | where: "principle", current_principle %}
             {% for tool in principle_tools %}
-            {% if tool.case_study == true %}
-              {% case site.lang %}
-              {% when 'en' %}
-                {% assign tool_name = tool.en.name %}
-                {% assign tool_image = tool.en.featured_image %}
-                {% assign tool_description = tool.en.description %}
-              {% when 'ar' %}
-                {% assign tool_name = tool.ar.name %}
-                {% assign tool_image = tool.ar.featured_image %}
-                {% assign tool_description = tool.ar.description %}
-              {% endcase %}
+              {% if tool.case_study == true %}
+                {% case site.lang %}
+                {% when 'en' %}
+                  {% assign tool_name = tool.en.name %}
+                  {% assign tool_image = tool.en.featured_image %}
+                  {% assign tool_description = tool.en.description %}
+                {% when 'ar' %}
+                  {% assign tool_name = tool.ar.name %}
+                  {% assign tool_image = tool.ar.featured_image %}
+                  {% assign tool_description = tool.ar.description %}
+                {% endcase %}
 
-              {% include components/tool-card.html case-study=true %}
+                {% include components/tool-card.html case-study=true %}
 
-            {% endif %}
+              {% endif %}
             {% endfor %}
           </div>
         </div>
