@@ -1,20 +1,32 @@
 ---
 layout: tool
-namespace:
-permalink:
-permalink_en:
-en:
-  name:
-  description:
-  tool_document:
-ar:
-  name:
-  description:
-  tool_document:
-grid_image:
-banner_image:
+namespace: 
+permalink: 
+permalink_en: 
 principle: be-open
 case_study: false
+en:
+  name: 
+  purpose: 
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
+  tool_document: 
+ar:
+  name: 
+  purpose: 
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
+  tool_document:
+gallery:
+  - url: 
+    caption:
+    caption_en:
+
+banner_image:
 related_tools:
   -
 ---

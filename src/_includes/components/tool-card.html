@@ -1,27 +1,29 @@
 {% if include.case-study %}
   <div class="card case-study-card">
     <div class="card-header">
-      <h2 class="mt-3"><strong>{{ tool_name }}</strong></h2>
+      <h2 class="mt-3"><strong>{{ translation.name }}</strong></h2>
     </div>
     <div class="card-body text-center">
-      <img src="{{ tool_image | default: site.placeholder_image }}" class="img-fluid" alt="{{ tool_name }} image">
-      <p class="mt-5">{{ tool_description }}</p>
+      <a href="{% tl include.namespace %}" class="btn btn-bordered">
+        <img src="{{ translation.featured_image | default: site.placeholder_image }}" class="img-fluid" alt="{{ translation.name }} image">
+      </a>
+      <p class="mt-5">{{ translation.purpose }}</p>
     </div>
     <div class="card-footer">
-      <a href="{% tl tool.namespace %}" class="btn btn-bordered">{% translate cta.view_tool %}</a>
+      <a href="{% tl include.namespace %}" class="btn btn-bordered">{% translate cta.view_tool %}</a>
     </div>
   </div>
 {% else %}
   <div class="card tool-card text-center">
     <div class="card-header">
-      <h4><strong>{{ tool_name }}</strong></h4>
+      <h4><strong>{{ translation.name }}</strong></h4>
     </div>
-    {% if tool.grid_image %}
-      <div class="bg-image aspect-4x3" style="background-image: url({{ tool_image }})"></div>
+    {% if translation.featured_image %}
+      <div class="bg-image aspect-4x3" style="background-image: url({{ translation.featured_image }})"></div>
     {% endif %}
     <div class="card-body">
-      {% if tool_description %}
-        <p class="mb-0">{{ tool_description }}</p>
+      {% if translation.purpose %}
+        <p class="mb-0">{{ translation.purpose }}</p>
       {% endif %}
     </div>
     <div class="card-footer d-flex text-uppercase">

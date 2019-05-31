@@ -1,12 +1,12 @@
 ---
 layout: tool
-namespace: feedback-notebook
-permalink: /tools/feedback-notebook/
-permalink_en: /tools/feedback-notebook/
+namespace: feedback-debrief
+permalink: /tools/feedback-debrief/
+permalink_en: /tools/feedback-debrief/
 principle: look-and-think
 case_study: true
 en:
-  name:
+  name: Feedback Debrief 
   purpose:
     testimonial:
       quote:

@@ -3,19 +3,30 @@ layout: tool
 namespace: mobile-app-template
 permalink: /tools/mobile-app-template/
 permalink_en: /tools/mobile-app-template/
-en:
-  name: Mobile App Template
-  description:
-  tool_document:
-ar:
-  name: خلاط فكرة
-  description:
-  tool_document:
-
-grid_image:
-banner_image:
 principle: create-build-and-test
 case_study: false
+en:
+  name: Mobile App Template
+  purpose: Sketch out your concept as a mobile application. Start simple, but later on you could involve a designer or developer.
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
+  tool_document: /downloads/tools/mobile-app-template/mobile-app-template-en.pdf
+ar:
+  name: قالب تطبيق هاتفي
+  purpose: خطّط المفهوم الخاص بك على شكل تطبيق هاتفي. ابدأ بشكل مبسّط، ولكن يمكنك فيما بعد توظيف رسّام أو مطوّر برمجيّات لتطوير الفكرة.
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
+  tool_document: /downloads/tools/mobile-app-template/mobile-app-template-ar.pdf
+gallery:
+  - url: 
+    caption:
+    caption_en:
+
+banner_image:
 related_tools:
-  - neighborhood-as-a-learning-environment
+  -
 ---

@@ -3,20 +3,30 @@ layout: tool
 namespace: idea-share-out
 permalink: /tools/idea-share-out/
 permalink_en: /tools/idea-share-out/
+principle: create-build-and-test
+case_study: false
 en:
   name: Idea Share Out
-  description:
-  tool_document:
+  purpose: 
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
+  tool_document: 
 ar:
-  name: فكرة مشاركة خارج
-  description:
+  name: 
+  purpose: 
+  testimonial:
+    quote: 
+    author: 
+  featured_image: 
   tool_document:
+gallery:
+  - url: 
+    caption:
+    caption_en:
 
-grid_image:
 banner_image:
-principle: create-build-and-test
-
-case_study: false
 related_tools:
-  - context-tool
+  -
 ---
