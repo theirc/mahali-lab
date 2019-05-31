@@ -22,10 +22,29 @@ ar:
   featured_image:
   tool_document: /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
 gallery:
-  - url: /img/transforming-neighborhood-environments/
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
     caption:
     caption_en:
-banner_image:
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-2.jpg
+    caption:
+    caption_en:
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-3.jpg
+    caption:
+    caption_en:
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-4.jpg
+    caption:
+    caption_en:
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-5.jpg
+    caption:
+    caption_en:
+  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-6.jpg
+    caption:
+    caption_en:
+
+banner_image: /img/transforming-neighborhood-environments/hero.jpg
 related_tools:
  - storyboard-template
+ - mobile-app-template
+ - website-template
+ - conversation-template
 ---
