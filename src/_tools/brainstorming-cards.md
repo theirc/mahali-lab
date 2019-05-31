@@ -14,8 +14,9 @@ en:
   featured_image: 
   tool_document: 
 ar:
-  name: 
-  purpose: بطاقات العصف الذهني (المصدر)
+  name: بطاقات العصف الذهني (المصدر)
+  purpose: مجموعة مكوّنة من 52 بطاقة تساعدك في إجراء العصف الذهني وابتكار أفكار جديدة. مستوحاة من مجلس الابتكار (<a href="https://www.boardofinnovation.com/tools/brainstorm-cards/">Board of Innovation</a>)
+
   testimonial:
     quote: 
     author: 
