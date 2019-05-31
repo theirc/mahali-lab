@@ -49,19 +49,15 @@ layout: default
             {% assign current_principle = page.slug %}
             {% assign principle_tools = site.tools | where: "principle", current_principle %}
             {% for tool in principle_tools %}
+              {% assign tool_namespace = tool.namespace %}
               {% if tool.case_study == true %}
                 {% case site.lang %}
                   {% when 'en' %}
                     {% assign translation = tool.en %}
-                    {% assign namespace = tool.namespace %}
                   {% when 'ar' %}
                     {% assign translation = tool.ar %}
-                    {% assign tool_name = tool.ar.name %}
-                    {% assign tool_image = tool.ar.featured_image %}
-                    {% assign tool_description = tool.ar.description %}
                 {% endcase %}
-
-                {% include components/tool-card.html case-study=true namespace=namespace %}
+                {% include components/tool-card.html case-study=true namespace=tool_namespace %}
 
               {% endif %}
             {% endfor %}
@@ -83,19 +79,16 @@ layout: default
     <div class="card-deck card-deck-33">
       {% assign tools = site.tools | where: "principle", current_principle %}
       {% for tool in tools %}
+        {% assign tool_namespace = tool.namespace %}
         {% if tool.case_study == false %}
           {% case site.lang %}
             {% when 'en' %}
-              {% assign tool_name = tool.en.name %}
-              {% assign tool_image = tool.en.featured_image %}
-              {% assign tool_description = tool.en.description %}
+              {% assign translation = tool.en %}
             {% when 'ar' %}
-              {% assign tool_name = tool.ar.name %}
-              {% assign tool_image = tool.ar.featured_image %}
-              {% assign tool_description = tool.ar.description %}
+              {% assign translation = tool.ar %}
           {% endcase %}
 
-          {% include components/tool-card.html %}
+          {% include components/tool-card.html namespace=tool_namespace %}
 
         {% endif %}
       {% endfor %}
