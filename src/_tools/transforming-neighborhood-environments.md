@@ -24,23 +24,23 @@ ar:
   tool_document: /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
 gallery_images:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-2.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-3.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-4.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-5.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-6.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 banner_image: /img/transforming-neighborhood-environments/hero.jpg
 related_tools:

@@ -24,8 +24,8 @@ ar:
   tool_document: /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 banner_image:
 related_tools:
 ---

@@ -24,8 +24,8 @@ ar:
   tool_document: /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-ar.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 banner_image:
 related_tools:

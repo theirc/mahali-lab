@@ -24,8 +24,8 @@ ar:
   tool_document: /downloads/tools/design-research-plan/design-research-plan-ar.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 banner_image:
 related_tools:

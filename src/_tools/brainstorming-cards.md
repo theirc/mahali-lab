@@ -23,8 +23,8 @@ ar:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-ar.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 banner_image:
 related_tools:

@@ -24,8 +24,8 @@ ar:
   tool_document: /downloads/tools/context-tool-problem-definition/context-tool-problem-definition-ar.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 banner_image:
 related_tools:
   - how-might-we-question-rating

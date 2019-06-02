@@ -24,8 +24,8 @@ ar:
   tool_document: /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
 gallery_images:
   - image:
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 banner_image:
 related_tools:

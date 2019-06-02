@@ -24,17 +24,17 @@ ar:
   tool_document:
 gallery_images:
   - image: /img/creative-mindsets/IMG_4513_p16.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/creative-mindsets/DS8A1738_p16.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/creative-mindsets/IMG_4535_p16.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
   - image: /img/creative-mindsets/IMG_0246.jpg
-    caption:
-    caption_en:
+    caption_arabic:
+    caption_english:
 
 
 banner_image:
