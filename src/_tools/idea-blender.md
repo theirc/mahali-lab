@@ -7,18 +7,24 @@ en:
   name: Idea Blender
   purpose: Evolve your idea by gaining inspiration from existing solutions.
   testimonial:
-    quote: It gives you the perspective of how things are already being solved. It’s about looking at the context you are in, how other people are tackling the problem, and how you can tackle it from your perspective. And looking at multiple solutions allows you to look into things more widely.
+    quote: >-
+      It gives you the perspective of how things are already being solved. It’s
+      about looking at the context you are in, how other people are tackling the
+      problem, and how you can tackle it from your perspective. And looking at
+      multiple solutions allows you to look into things more widely.
     author: Ahmad
-
   featured_image:
   tool_document:
 ar:
   name: خلّاط الأفكار
   purpose: طوّر فكرتك عن طريق اكتساب الإلهام من الحلول الموجودة
   testimonial:
-    quote: تعطيك هذه الأداة المنظور اللازم حول الطريقة التي حلت بها المشاكل. وتتمحور حول النظر إلى السياق الذي أنت فيه، والكيفية التي عالج بها أشخاص آخرون هذه المشكلة، وكيف يمكنك أن تعالجها من منظورك الخاص. وملاحظة الحلول المختلفة يسمح لك بالنظر إلى الأمور من زاوية أوسع
-    author:  أحمد نوح
-
+    quote: >-
+      تعطيك هذه الأداة المنظور اللازم حول الطريقة التي حلت بها المشاكل. وتتمحور
+      حول النظر إلى السياق الذي أنت فيه، والكيفية التي عالج بها أشخاص آخرون هذه
+      المشكلة، وكيف يمكنك أن تعالجها من منظورك الخاص. وملاحظة الحلول المختلفة
+      يسمح لك بالنظر إلى الأمور من زاوية أوسع
+    author: أحمد نوح
   featured_image:
   tool_document:
 gallery_images:
@@ -27,7 +33,6 @@ gallery_images:
     caption_english:
 banner_image:
 related_tools:
-  - brainstorming-tools
   - forced-analogy-cards
-
 ---
+
