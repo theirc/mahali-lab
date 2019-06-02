@@ -23,10 +23,19 @@ ar:
   featured_image: /img/context-tool-problem-definition/context-tool-problem-definition-ar.jpg
   tool_document: /downloads/tools/context-tool-problem-definition/context-tool-problem-definition-ar.pdf
 gallery_images:
-  - image:
+  - image: /img/context-tool-problem-definition/context-tool-problem-definition1.jpg
     caption_arabic:
     caption_english:
-banner_image:
+  - image: /img/context-tool-problem-definition/context-tool-problem-definition4.jpg
+    caption_arabic:
+    caption_english:
+  - image: /img/context-tool-problem-definition/context-tool-problem-definition5.jpg
+    caption_arabic:
+    caption_english:
+  - image: /img/context-tool-problem-definition/context-tool-problem-definition6.jpg
+    caption_arabic:
+    caption_english:
+banner_image: /img/context-tool-problem-definition/hero.jpg
 related_tools:
   - how-might-we-question-rating
 ---
