@@ -34,5 +34,6 @@ gallery_images:
 banner_image:
 related_tools:
   - forced-analogy-cards
+  - brainstorming-cards
 ---
 
