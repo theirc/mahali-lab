@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image: /img/creative-mindsets/creative-mindsets-ar.jpg
   tool_document:
-gallery:
+gallery_images:
   - url: /img/creative-mindsets/IMG_4513_p16.jpg
     caption:
     caption_en:

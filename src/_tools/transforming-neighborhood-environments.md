@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
-gallery:
+gallery_images:
   - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
     caption:
     caption_en:

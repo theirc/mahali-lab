@@ -22,7 +22,7 @@ ar:
   example_html:
   featured_image: /img/feedback-debrief/feedback-debrief-example-ar.jpg
   tool_document: /downloads/tools/feedback-debrief/feedback-debrief-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

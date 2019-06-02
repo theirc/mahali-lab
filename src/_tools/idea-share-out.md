@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/idea-share-out/idea-share-out-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.jpg
   tool_document: /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

@@ -23,7 +23,7 @@ ar:
   example_html:
   featured_image:
   tool_document:
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

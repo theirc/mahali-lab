@@ -25,7 +25,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

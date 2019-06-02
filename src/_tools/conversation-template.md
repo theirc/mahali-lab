@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/conversation-template/conversation-template-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

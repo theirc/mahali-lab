@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image:
   tool_document: /downloads/tools/design-research-plan/design-research-plan-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:

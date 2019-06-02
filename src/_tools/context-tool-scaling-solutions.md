@@ -24,7 +24,7 @@ ar:
   example_html:
   featured_image: /img/context-tool-scaling-solutions/context-tool-scaling-solutions-example-ar.jpg
   tool_document: /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-ar.pdf
-gallery:
+gallery_images:
   - url:
     caption:
     caption_en:
