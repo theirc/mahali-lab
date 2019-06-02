@@ -23,7 +23,7 @@ ar:
   featured_image: /img/context-tool-problem-definition/context-tool-problem-definition-ar.jpg
   tool_document: /downloads/tools/context-tool-problem-definition/context-tool-problem-definition-ar.pdf
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 banner_image:

@@ -23,16 +23,16 @@ ar:
   featured_image: /img/creative-mindsets/creative-mindsets-ar.jpg
   tool_document:
 gallery_images:
-  - url: /img/creative-mindsets/IMG_4513_p16.jpg
+  - image: /img/creative-mindsets/IMG_4513_p16.jpg
     caption:
     caption_en:
-  - url: /img/creative-mindsets/DS8A1738_p16.jpg
+  - image: /img/creative-mindsets/DS8A1738_p16.jpg
     caption:
     caption_en:
-  - url: /img/creative-mindsets/IMG_4535_p16.jpg
+  - image: /img/creative-mindsets/IMG_4535_p16.jpg
     caption:
     caption_en:
-  - url: /img/creative-mindsets/IMG_0246.jpg
+  - image: /img/creative-mindsets/IMG_0246.jpg
     caption:
     caption_en:
 

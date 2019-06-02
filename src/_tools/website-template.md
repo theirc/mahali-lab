@@ -23,7 +23,7 @@ ar:
   featured_image:
   tool_document: /downloads/tools/website-template/website-template-ar.pdf
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 

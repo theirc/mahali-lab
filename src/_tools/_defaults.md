@@ -1,28 +1,28 @@
 ---
 layout: tool
-namespace: 
-permalink: 
-permalink_en: 
+namespace:
+permalink:
+permalink_en:
 principle: be-open
 case_study: false
 en:
-  name: 
-  purpose: 
+  name:
+  purpose:
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
-  tool_document: 
+    quote:
+    author:
+  featured_image:
+  tool_document:
 ar:
-  name: 
-  purpose: 
+  name:
+  purpose:
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  featured_image:
   tool_document:
 gallery:
-  - url: 
+  - image:
     caption:
     caption_en:
 

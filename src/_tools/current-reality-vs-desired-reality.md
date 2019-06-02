@@ -23,7 +23,7 @@ ar:
   featured_image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.jpg
   tool_document: /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.pdf
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 banner_image:

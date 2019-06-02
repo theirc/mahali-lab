@@ -125,9 +125,9 @@ layout: default
   <section id="gallery">
     <div class="container">
       <div class="row">
-        {% for image in page.gallery_images %}
+        {% for item in page.gallery_images %}
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="bg-image aspect-4x3 my-3" style="background-image: url({{ image.url }})"></div>
+          <div class="bg-image aspect-4x3 my-3" style="background-image: url({{ item.image }})"></div>
         </div>
         {% endfor %}
       </div>

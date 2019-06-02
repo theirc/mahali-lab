@@ -22,7 +22,7 @@ ar:
   featured_image:
   tool_document: /downloads/tools/how-might-we-question-template/how-might-we-question-template-ar.pdf
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 

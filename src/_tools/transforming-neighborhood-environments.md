@@ -23,22 +23,22 @@ ar:
   featured_image:
   tool_document: /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
 gallery_images:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
     caption:
     caption_en:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-2.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-2.jpg
     caption:
     caption_en:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-3.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-3.jpg
     caption:
     caption_en:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-4.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-4.jpg
     caption:
     caption_en:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-5.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-5.jpg
     caption:
     caption_en:
-  - url: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-6.jpg
+  - image: /img/transforming-neighborhood-environments/transforming-neighborhood-environments-6.jpg
     caption:
     caption_en:
 

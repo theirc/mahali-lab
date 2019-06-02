@@ -22,7 +22,7 @@ ar:
   featured_image:
   tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 

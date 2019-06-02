@@ -22,7 +22,7 @@ ar:
   featured_image:
   tool_document:
 gallery_images:
-  - url:
+  - image:
     caption:
     caption_en:
 banner_image:
