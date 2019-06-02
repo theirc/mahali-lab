@@ -9,20 +9,24 @@ en:
   name: Conversation Template
   purpose: Sketch out your concept as a conversation between two people.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/conversation-template/conversation-template-en.pdf
 ar:
   name: قالب محادثة شخصية
   purpose: خطّط المفهوم الخاص بك على شكل محادثة بين شخصين.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/conversation-template/conversation-template-ar.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 

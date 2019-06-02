@@ -9,20 +9,24 @@ en:
   name: Mobile App Template
   purpose: Sketch out your concept as a mobile application. Start simple, but later on you could involve a designer or developer.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/mobile-app-template/mobile-app-template-en.pdf
 ar:
   name: قالب تطبيق هاتفي
   purpose: خطّط المفهوم الخاص بك على شكل تطبيق هاتفي. ابدأ بشكل مبسّط، ولكن يمكنك فيما بعد توظيف رسّام أو مطوّر برمجيّات لتطوير الفكرة.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/mobile-app-template/mobile-app-template-ar.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 

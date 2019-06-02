@@ -9,20 +9,24 @@ en:
   name: Point of View template
   purpose: Create an actionable problem statement to generate ideas. This tool can be useful in a challenge statement.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/point-of-view-template/point-of-view-template-en.pdf
 ar:
-  name: قالب وجهة نظر المستخدم 
+  name: قالب وجهة نظر المستخدم
   purpose: أنشئ بيان مشكلة قابلًا للتنفيذ. يمكن لهذه الأداة أن تكون مفيدة في بناء بيان التحدي.
   testimonial:
-    quote: 
-    author: 
-  featured_image: 
+    quote:
+    author:
+  what_how_html:
+  example_html:
+  featured_image:
   tool_document: /downloads/tools/point-of-view-template/point-of-view-template-ar.pdf
 gallery:
-  - url: 
+  - url:
     caption:
     caption_en:
 

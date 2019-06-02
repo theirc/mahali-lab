@@ -11,6 +11,8 @@ en:
   testimonial:
     quote:
     author:
+  what_how_html:
+  example_html:
   featured_image:
   tool_document: /downloads/tools/idea-share-out/idea-share-out-en.pdf
 ar:
@@ -19,6 +21,8 @@ ar:
   testimonial:
     quote:
     author:
+  what_how_html:
+  example_html:
   featured_image:
   tool_document: /downloads/tools/idea-share-out/idea-share-out-ar.pdf
 gallery:

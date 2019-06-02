@@ -19,6 +19,8 @@ ar:
   testimonial:
     quote:
     author:
+  what_how_html:
+  example_html:
   featured_image:
   tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 gallery:

@@ -11,6 +11,8 @@ en:
   testimonial:
     quote: This tool helped us scale our solution to multiple target segments, explore who else might need it or be interested in it, and think of ways to make it useful for people who may be different from our main users.
     author: Ehab
+  what_how_html:
+  example_html:
   featured_image: /img/context-tool-scaling-solutions/context-tool-scaling-solutions-example-en.jpg
   tool_document: /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-en.pdf
 ar:
@@ -19,6 +21,8 @@ ar:
   testimonial:
     quote: ساعدتنا هذا الأداة في توسيع الحل الذي قدمناه ليشمل عدة فئات مستهدفة، واستكشاف الأشخاص الآخرين المحتاجين لهذا الحل أو المهتمين به، والتفكير في طرق أخرى لاستخدامه من قبل أشخاص آخرين بدلًا من المستخدمين الرئيسيين الذين نهتم بهم
     author:  إيهاب
+  what_how_html:
+  example_html:
   featured_image: /img/context-tool-scaling-solutions/context-tool-scaling-solutions-example-ar.jpg
   tool_document: /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-ar.pdf
 gallery:

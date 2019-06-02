@@ -10,6 +10,8 @@ en:
   testimonial:
     quote: It gives you the perspective of how things are already being solved. It’s about looking at the context you are in, how other people are tackling the problem, and how you can tackle it from your perspective. And looking at multiple solutions allows you to look into things more widely.
     author: Ahmad
+  what_how_html:
+  example_html:
   featured_image:
   tool_document:
 ar:
@@ -18,6 +20,8 @@ ar:
   testimonial:
     quote: تعطيك هذه الأداة المنظور اللازم حول الطريقة التي حلت بها المشاكل. وتتمحور حول النظر إلى السياق الذي أنت فيه، والكيفية التي عالج بها أشخاص آخرون هذه المشكلة، وكيف يمكنك أن تعالجها من منظورك الخاص. وملاحظة الحلول المختلفة يسمح لك بالنظر إلى الأمور من زاوية أوسع
     author:  أحمد نوح
+  what_how_html:
+  example_html:
   featured_image:
   tool_document:
 gallery:
@@ -28,5 +32,5 @@ banner_image:
 related_tools:
   - brainstorming-tools
   - forced-analogy-cards
-  
+
 ---

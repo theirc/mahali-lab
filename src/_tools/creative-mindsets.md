@@ -11,6 +11,8 @@ en:
   testimonial:
     quote: One of the most useful mindsets to me was accountability. Feeling that the issue at hand is mine, and that I’m the most relevant and appropriate person to solve it was always the main motivation for me to try harder. It forced me to come up with better ways to solve the problem to serve the need of as many people as I could. I’m sure if everyone felt accountable about the problems we face, our situation would be much better
     author: Shaimaa
+  what_how_html:
+  example_html:
   featured_image: /img/creative-mindsets/creative-mindsets-en.jpg
   tool_document: /downloads/tools/creative-mindsets/creative-mindsets-tool-en.png
 ar:
@@ -19,6 +21,8 @@ ar:
   testimonial:
     quote: من أكثر عقليات الابتكار التي فادتني كثير هي الملكية ، شعوري التام بأن هاي المشكلة مشكلتي أنا، وكوني أنا أكثر شخص مناسب لابتكار الحل كان دائمًا هو الدافع الاساسي لأن أحاول أكثر وأبحث أكثر كي أساعد عدد أكبر، السبب هو أنه فعلًا، لو كل شخص شعر بالملكية تجاه مشاكلنا متأكدة ما حيكون الوضع هيك
     author: Shaimaa
+  what_how_html:
+  example_html:
   featured_image: /img/creative-mindsets/creative-mindsets-ar.jpg
   tool_document:
 gallery:
