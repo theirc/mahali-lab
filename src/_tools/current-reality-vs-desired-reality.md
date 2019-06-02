@@ -64,5 +64,9 @@ gallery_images:
 banner_image: /img/current-reality-vs-desired-reality/hero.jpg
 related_tools:
   - how-might-we-question-template
+  - persona
+  - design-research-plan
+  - design-research-debrief
+  - point-of-view-template
 ---
 
