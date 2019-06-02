@@ -10,8 +10,6 @@ en:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
   featured_image:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-en.pdf
 ar:
@@ -21,8 +19,6 @@ ar:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
   featured_image:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-ar.pdf
 gallery_images:

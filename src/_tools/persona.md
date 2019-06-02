@@ -10,8 +10,7 @@ en:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
+
   featured_image:
   tool_document: /downloads/tools/persona/persona-en.pdf
 ar:
@@ -20,8 +19,7 @@ ar:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
+
   featured_image:
   tool_document: /downloads/tools/persona/persona-ar.pdf
 gallery_images:

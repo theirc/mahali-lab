@@ -18,8 +18,7 @@ ar:
   testimonial:
     quote: التغذية الراجعة التي يعطيها المستخدم ممكن أن تحيّر أحيانًا. هذه الأداة ساعدتنا نتفكّر ونخطط الخطوات اللازمة بعد الحصول على التغذية الراجعة من المستخدمين الذين استهدفناهم. أعتقد أنه احتجنا الأداة أيضًا لنتأكد من تحليل التغذية الراجعة بشكل صحيح وأن كل أعضاء الفريق متفقين
     author:  يزن
-  what_how_html:
-  example_html:
+
   featured_image: /img/feedback-debrief/feedback-debrief-example-ar.jpg
   tool_document: /downloads/tools/feedback-debrief/feedback-debrief-ar.pdf
 gallery_images:

@@ -10,8 +10,7 @@ en:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
+
   featured_image:
   tool_document: /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
 ar:
@@ -20,8 +19,7 @@ ar:
   testimonial:
     quote:
     author:
-  what_how_html:
-  example_html:
+
   featured_image:
   tool_document: /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
 gallery_images:
