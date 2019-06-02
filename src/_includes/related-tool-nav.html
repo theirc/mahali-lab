@@ -14,7 +14,8 @@
         <div class="content text-center">
           <p class="text-uppercase">{% translate headings.related_tools %}:</p>
         </div>
-        <div class="card-deck card-deck-25">
+
+        <div class="card-deck card-deck-50">
           {% for tool in related %}
           {% assign tool_namespace = tool.namespace %}
           {% case site.lang %}

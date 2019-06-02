@@ -22,11 +22,14 @@ ar:
   featured_image: /img/feedback-debrief/feedback-debrief-example-ar.jpg
   tool_document: /downloads/tools/feedback-debrief/feedback-debrief-ar.pdf
 gallery_images:
-  - image:
+  - image: /img/feedback-debrief/feedback-debrief1.jpg
+    caption_arabic:
+    caption_english:
+  - image: /img/feedback-debrief/feedback-debrief2.jpg
     caption_arabic:
     caption_english:
 
-banner_image:
+banner_image: /img/feedback-debrief/hero.jpg
 related_tools:
   - design-research-plan
   - persona

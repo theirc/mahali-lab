@@ -37,6 +37,7 @@
     }
   }
   &.tool-card {
+    margin-bottom: 1.5rem;
     .card-header {
       height: 75px;
       display: flex;
@@ -48,16 +49,25 @@
       }
     }
     .card-footer {
-      padding: 0 0 4px;
+      padding: 0;
       background-color: $primary;
+      align-items: center;
       a {
         width: 50%;
-        text-align: center;
-        font-weight: 600;
-        font-size: 13px;
-        padding: 0;
-        border-bottom: 2px solid $dark;
-        margin: 5px 10px;
+        padding: 10px;
+        // text-align: center;
+        // font-weight: 600;
+        // font-size: 13px;
+        // padding: 0;
+        // border-bottom: 2px solid $dark;
+        // margin: 5px 10px;
+        &:first-of-type {
+          background-color: darken($primary, 10%);
+        }
+        i {
+          font-size: 1.75rem;
+          margin-right: 10px;
+        }
       }
     }
   }
