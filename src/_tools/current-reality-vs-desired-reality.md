@@ -63,5 +63,6 @@ gallery_images:
     caption_english:
 banner_image: /img/current-reality-vs-desired-reality/hero.jpg
 related_tools:
+  - how-might-we-question-template
 ---
 
