@@ -31,7 +31,7 @@ ar:
       المشكلة مشكلتي أنا، وكوني أنا أكثر شخص مناسب لابتكار الحل كان دائمًا هو
       الدافع الاساسي لأن أحاول أكثر وأبحث أكثر كي أساعد عدد أكبر، السبب هو أنه
       فعلًا، لو كل شخص شعر بالملكية تجاه مشاكلنا متأكدة ما حيكون الوضع هيك
-    author: Shaimaa
+    author: شيماء
   featured_image: /img/creative-mindsets/creative-mindsets-ar.jpg
   tool_document:
 gallery_images:
