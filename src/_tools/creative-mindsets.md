@@ -37,6 +37,6 @@ gallery_images:
     caption_english:
 
 
-banner_image:
+banner_image: /img/creative-mindsets/hero.jpg
 related_tools:
 ---
