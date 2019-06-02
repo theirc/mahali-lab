@@ -52,5 +52,6 @@ gallery_images:
     caption_english:
 banner_image: /img/context-tool-problem-definition/hero.jpg
 related_tools:
+  - how-might-we-question-template
 ---
 
