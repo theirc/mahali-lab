@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: context-tool-scaling-solutions
 permalink: /tools/context-tool-scaling-solutions/
 permalink_en: /tools/context-tool-scaling-solutions/
 principle: scale-and-sustain
-case_study: true
 en:
   name: "Context Tool: Scaling Solutions"
   purpose: A tool to help you to measure how far your idea could scale.

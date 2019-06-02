@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: transforming-neighborhood-environments
 permalink: /tools/transforming-neighborhood-environments/
 permalink_en: /tools/transforming-neighborhood-environments/
 principle: create-build-and-test
-case_study: true
 en:
   name: Transforming Neighborhood Environments
   purpose: This tool goes through the design process to redesign existing spaces to solve a particular problem.

@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: feedback-debrief
 permalink: /tools/feedback-debrief/
 permalink_en: /tools/feedback-debrief/
 principle: look-and-think
-case_study: true
 en:
   name: Feedback Debrief
   purpose: A tool to help enable decision-making on the right type of feedback to act on.

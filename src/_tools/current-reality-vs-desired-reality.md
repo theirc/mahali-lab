@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: current-reality-vs-desired-reality
 permalink: /tools/current-reality-vs-desired-reality/
 permalink_en: /tools/current-reality-vs-desired-reality/
 principle: look-and-think
-case_study: true
 en:
   name: Current reality vs. desired reality
   purpose: This is an inclusive way to frame a community challenge and explore how different stakeholders experience the same problem.

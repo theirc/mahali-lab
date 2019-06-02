@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: point-of-view-template
 permalink: /tools/point-of-view-template/
 permalink_en: /tools/point-of-view-template/
 principle: be-open
-case_study: false
 en:
   name: Point of View template
   purpose: Create an actionable problem statement to generate ideas. This tool can be useful in a challenge statement.

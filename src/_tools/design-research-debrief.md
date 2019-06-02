@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: design-research-debrief
 permalink: /tools/design-research-debrief/
 permalink_en: /tools/design-research-debrief/
 principle: look-and-think
-case_study: false
 en:
   name: Design Research Debrief
   purpose: Reflect on and summarize your thoughts after conducting observational research or an interview.

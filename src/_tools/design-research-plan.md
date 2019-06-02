@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: design-research-plan
 permalink: /tools/design-research-plan/
 permalink_en: /tools/design-research-plan/
 principle: look-and-think
-case_study: false
 en:
   name: Design Research Plan
   purpose: "A design research planning tool with space for up to ten different techniques to acquire different pieces of information. Researching each point requires teams to think and answer questions such as, what will they ask, how will they document their findings, and who will be doing what?"

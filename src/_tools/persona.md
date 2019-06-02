@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: persona
 permalink: /tools/persona/
 permalink_en: /tools/persona/
 principle: look-and-think
-case_study: false
 en:
   name: Persona
   purpose: This template helps you come up with fictitious characters that represent the different user types within your targeted group of users. It helps to focus on the need, goals, and behaviors of a real user group based on your research. It's a useful tool to help you better understand who you are designing for.

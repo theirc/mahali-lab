@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: forced-analogy-cards
 permalink: /tools/forced-analogy-cards/
 permalink_en: /tools/forced-analogy-cards/
 principle: be-open
-case_study: false
 en:
   name: Forced Analogy Cards
   purpose: A set of 40 cards with pictures of different objects to help go through a forced analogy exercise.

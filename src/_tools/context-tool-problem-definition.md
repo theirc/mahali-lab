@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: context-tool-problem-definition
 permalink: /tools/context-tool-problem-definition/
 permalink_en: /tools/context-tool-problem-definition/
 principle: look-and-think
-case_study: true
 en:
   name: "Context Tool: Problem Definition"
   purpose: A tool to break down how a problem affects groups of people differently.

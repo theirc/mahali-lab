@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: storyboard-template
 permalink: /tools/storyboard-template/
 permalink_en: /tools/storyboard-template/
 principle: create-build-and-test
-case_study: false
 en:
   name: Storyboard Template
   purpose: Create visuals that map out a user experience. Start simple, but later on you could involve an illustrator or videographer to develop a more detailed story.

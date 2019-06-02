@@ -20,6 +20,13 @@ collections:
   posts:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+
 
 # Google Analytics
 analytics_code:

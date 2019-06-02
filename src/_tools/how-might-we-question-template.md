@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: how-might-we-question-template
 permalink: /tools/how-might-we-question-template/
 permalink_en: /tools/how-might-we-question-template/
 principle: look-and-think
-case_study: false
 en:
   name: How Might We Question Template
   purpose: A template that helps you frame your design challenge into and actionable problem statement that will drive the rest of your problem solving work.

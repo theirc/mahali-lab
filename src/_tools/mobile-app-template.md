@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: mobile-app-template
 permalink: /tools/mobile-app-template/
 permalink_en: /tools/mobile-app-template/
 principle: create-build-and-test
-case_study: false
 en:
   name: Mobile App Template
   purpose: Sketch out your concept as a mobile application. Start simple, but later on you could involve a designer or developer.

@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: false
 namespace: conversation-template
 permalink: /tools/conversation-template/
 permalink_en: /tools/conversation-template/
 principle: create-build-and-test
-case_study: false
 en:
   name: Conversation Template
   purpose: Sketch out your concept as a conversation between two people.

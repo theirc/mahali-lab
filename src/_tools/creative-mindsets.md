@@ -1,10 +1,9 @@
 ---
-layout: tool
+case_study: true
 namespace: creative-mindsets
 permalink: /tools/creative-mindsets/
 permalink_en: /tools/creative-mindsets/
 principle: be-open
-case_study: true
 en:
   name: Creative Mindsets
   purpose: 'These mindsets can encourage you to think in new creative ways when coming up with innovative ideas.'

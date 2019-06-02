@@ -1,9 +1,8 @@
 ---
-layout: tool
+case_study: true
 namespace: idea-blender
 permalink: /idea-blender/
 permalink_en: /tools/idea-blender/
-case_study: true
 en:
   name: Idea Blender
   purpose: Evolve your idea by gaining inspiration from existing solutions.
