@@ -23,9 +23,18 @@ ar:
   featured_image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.jpg
   tool_document: /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.pdf
 gallery_images:
-  - image:
+  - image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality2.jpg
     caption_arabic:
     caption_english:
-banner_image:
+  - image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality3.jpg
+    caption_arabic:
+    caption_english:
+  - image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality4.jpg
+    caption_arabic:
+    caption_english:
+  - image: /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality5.jpg
+    caption_arabic:
+    caption_english:
+banner_image: /img/current-reality-vs-desired-reality/hero.jpg
 related_tools:
 ---
