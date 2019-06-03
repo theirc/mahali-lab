@@ -6,7 +6,7 @@ permalink_en: /tools/brainstorming-cards/
 principle: be-open
 en:
   name: Brainstorming Cards
-  purpose: A collection of 52 cards to help you brainstorm and come up with new ideas. (<a href="https://www.boardofinnovation.com/tools/brainstorm-cards/">Adapted from the Board of Innovation</a>)
+  purpose: A collection of 52 cards to help you brainstorm and come up with new ideas. <a href="https://www.boardofinnovation.com/tools/brainstorm-cards/">Adapted from the Board of Innovation</a>
   testimonial:
     quote:
     author:
