@@ -6,30 +6,36 @@ layout: default
 {% capture example %}case-studies/{{page.namespace}}/example.html{% endcapture %}
 {% capture media %}case-studies/{{page.namespace}}/media.html{% endcapture %}
 
-{% case site.lang %}
-  {% when 'en' %}
-    {% assign tool = page.en %}
-    {% assign principle = current_principle.en %}
-  {% when 'ar' %}
-    {% assign tool = page.ar %}
-    {% assign principle = current_principle.ar %}
-{% endcase %}
-
 {% if page.case_study == false %}
+  {% assign tool = page %}
+  {% case site.lang %}
+    {% when 'en' %}
+      {% assign translation = page.en %}
+      {% assign principle = current_principle.en %}
+    {% when 'ar' %}
+      {% assign translation = page.ar %}
+      {% assign principle = current_principle.ar %}
+  {% endcase %}
   <section>
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="content">
-            <h1>{{ tool.name }}</h1>
-            <p class="lead">{{ tool.purpose }}</p>
-            <a href="{{ tool.tool_document }}">{% t cta.download_tool %}</a>
+            {% include components/tool-card.html %}
           </div>
         </div>
       </div>
     </div>
   </section>
 {% else %}
+  {% case site.lang %}
+  {% when 'en' %}
+  {% assign tool = page.en %}
+  {% assign principle = current_principle.en %}
+  {% when 'ar' %}
+  {% assign tool = page.ar %}
+  {% assign principle = current_principle.ar %}
+  {% endcase %}
   <div class="bg-image aspect-hero" style="background-image: url({{ page.banner_image | default: site.placeholder_image }})"></div>
   <section class="bg-light">
     <div class="container ">
@@ -46,7 +52,6 @@ layout: default
               </div>
               <h1>{{ tool.name }}</h1>
               <p class="mb-0 lead">{{ tool.purpose }}</p>
-
             </div>
           </div>
         </div>
@@ -59,7 +64,7 @@ layout: default
                 <img src="{{ tool.featured_image }}" class="img-fluid mb-4" alt="{{ tool.name }} image" />
               </a>
             {% endif %}
-            <a href="{{ tool.tool_document }}" class="btn btn-bordered">{% t cta.download_tool %}</a>
+            <a href="{{ tool.tool_document }}" class="btn btn-bordered mb-4">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
