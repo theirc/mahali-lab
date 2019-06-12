@@ -1,5 +1,8 @@
 #page-header {
   background-color: $primary;
+  a {
+    text-decoration: none;
+  }
   .nav-link {
     color: $dark;
     font-weight: 600;

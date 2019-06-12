@@ -11,7 +11,13 @@ section {
 }
 
 a {
+  text-decoration: underline;
+  color: $dark;
   &:hover {
     text-decoration: none;
   }
+}
+
+.nav-link {
+  text-decoration: none;
 }

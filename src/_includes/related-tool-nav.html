@@ -14,8 +14,13 @@
         <div class="content text-center">
           <p class="text-uppercase">{% translate headings.related_tools %}</p>
         </div>
+        {% assign check = related.size | modulo: 3 %}
+        {% if check == 0 %}
+          <div class="card-deck card-deck-33">
+        {% else %}
+          <div class="card-deck card-deck-50">
+        {% endif %}
 
-        <div class="card-deck card-deck-50">
           {% for tool in related %}
           {% assign tool_namespace = tool.namespace %}
           {% case site.lang %}
