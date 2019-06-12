@@ -44,27 +44,27 @@ ar:
     /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
 gallery_images:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-1.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-10.jpg
     caption_arabic:
     caption_english:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-2.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-20.jpg
     caption_arabic:
     caption_english:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-3.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-30.jpg
     caption_arabic:
     caption_english:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-4.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-40.jpg
     caption_arabic:
     caption_english:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-5.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-50.jpg
     caption_arabic:
     caption_english:
   - image: >-
-      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-6.jpg
+      /img/transforming-neighborhood-environments/transforming-neighborhood-environments-60.jpg
     caption_arabic:
     caption_english:
 banner_image: /img/transforming-neighborhood-environments/hero.jpg
