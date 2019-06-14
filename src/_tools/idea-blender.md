@@ -3,6 +3,7 @@ case_study: true
 namespace: idea-blender
 permalink: /idea-blender/
 permalink_en: /tools/idea-blender/
+principle: create-build-and-test
 en:
   name: Idea Blender
   purpose: Evolve your idea by gaining inspiration from existing solutions.
