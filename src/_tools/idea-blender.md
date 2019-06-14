@@ -37,6 +37,9 @@ gallery_images:
   - image: /uploads/dsc-1337.jpeg
     caption_arabic:
     caption_english:
+  - image: /uploads/dsc-1312.jpeg
+    caption_arabic:
+    caption_english:
 banner_image: /uploads/dsc-1338-copy.jpeg
 related_tools:
   - forced-analogy-cards
