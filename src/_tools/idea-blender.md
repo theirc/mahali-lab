@@ -28,10 +28,16 @@ ar:
   featured_image:
   tool_document:
 gallery_images:
-  - image:
+  - image: /uploads/dsc-1472.JPG
     caption_arabic:
     caption_english:
-banner_image:
+  - image: /uploads/dsc-1340.JPG
+    caption_arabic:
+    caption_english:
+  - image: /uploads/dsc-1337.JPG
+    caption_arabic:
+    caption_english:
+banner_image: /uploads/dsc-1338-copy.JPG
 related_tools:
   - forced-analogy-cards
   - brainstorming-cards
