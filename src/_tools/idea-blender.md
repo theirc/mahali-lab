@@ -25,8 +25,8 @@ ar:
       المشكلة، وكيف يمكنك أن تعالجها من منظورك الخاص. وملاحظة الحلول المختلفة
       يسمح لك بالنظر إلى الأمور من زاوية أوسع
     author: أحمد نوح
-  featured_image:
-  tool_document:
+  featured_image: /uploads/idea-blender-example-ar.jpg
+  tool_document: /uploads/idea-blender-ar.pdf
 gallery_images:
   - image: /uploads/dsc-1472.jpeg
     caption_arabic:
