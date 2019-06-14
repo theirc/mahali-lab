@@ -13,8 +13,8 @@ en:
       problem, and how you can tackle it from your perspective. And looking at
       multiple solutions allows you to look into things more widely.
     author: Ahmad
-  featured_image:
-  tool_document:
+  featured_image: /uploads/idea-blender-en-example.jpg
+  tool_document: /uploads/idea-blender-en.pdf
 ar:
   name: خلّاط الأفكار
   purpose: طوّر فكرتك عن طريق اكتساب الإلهام من الحلول الموجودة
