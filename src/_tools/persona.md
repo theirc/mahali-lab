@@ -12,7 +12,7 @@ en:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/persona/persona-en.pdf
 ar:
   name: الشخصيات
@@ -22,7 +22,7 @@ ar:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/persona/persona-ar.pdf
 gallery_images:
   - image:

@@ -11,7 +11,7 @@ en:
     quote:
     author:
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-en.pdf
 ar:
   name: بطاقات العصف الذهني (المصدر)
@@ -21,7 +21,7 @@ ar:
     quote:
     author:
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/brainstorming-cards/brainstorming-cards-ar.pdf
 gallery_images:
   - image:

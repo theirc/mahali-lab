@@ -26,6 +26,8 @@ defaults:
       type: "tools"
     values:
       layout: "tool"
+      _comments:
+        featured_video_id: Enter in YouTube ID
 
 
 # Google Analytics

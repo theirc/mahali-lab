@@ -11,7 +11,7 @@ en:
     quote:
     author:
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/how-might-we-question-template/how-might-we-question-template-en.pdf
 ar:
   name: قالب سؤال "كيف يمكننا؟"
@@ -21,7 +21,7 @@ ar:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/how-might-we-question-template/how-might-we-question-template-ar.pdf
 gallery_images:
   - image:

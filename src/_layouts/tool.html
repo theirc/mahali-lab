@@ -112,12 +112,16 @@ layout: default
     </div>
   </section>
 
-  {% if page.media %}
+
+  {% if tool.featured_video_id %}
   <section id="media">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          {% tf media %}
+          <div class="container-4x3">
+            <iframe src="https://www.youtube.com/embed/{{ tool.featured_video_id }}" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>

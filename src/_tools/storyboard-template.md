@@ -12,7 +12,7 @@ en:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/storyboard-template/storyboard-template-en.pdf
 ar:
   name: قالب قصة مصورة
@@ -22,7 +22,7 @@ ar:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/storyboard-template/storyboard-template-ar.pdf
 gallery_images:
   - image:

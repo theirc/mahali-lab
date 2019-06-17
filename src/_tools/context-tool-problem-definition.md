@@ -19,7 +19,7 @@ en:
       realizing that the opportunity space was with the parents.
     author:
   featured_image: /img/context-tool-problem-definition/context-tool-problem-definition-en.jpg
-  featured_video_url:
+  featured_video_id: fXiiwycwCIU
   tool_document: >-
     /downloads/tools/context-tool-problem-definition/context-tool-problem-definition-en.pdf
 ar:
@@ -36,7 +36,7 @@ ar:
       أنّ فرصة الحل موجودة مع الأهل نفسهم
     author: إيهاب
   featured_image: /img/context-tool-problem-definition/context-tool-problem-definition-ar.jpg
-  featured_video_url:
+  featured_video_id: fXiiwycwCIU
   tool_document: >-
     /downloads/tools/context-tool-problem-definition/context-tool-problem-definition-ar.pdf
 gallery_images:

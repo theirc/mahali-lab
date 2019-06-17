@@ -12,7 +12,7 @@ en:
     quote:
     author:
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document:
 ar:
   name:
@@ -21,7 +21,7 @@ ar:
     quote:
     author:
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document:
 gallery:
   - image:

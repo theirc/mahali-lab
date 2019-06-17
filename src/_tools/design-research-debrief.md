@@ -12,7 +12,7 @@ en:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/design-research-debrief/design-research-debrief-en.pdf
 ar:
   name: ملخص البحث التصميمي
@@ -22,7 +22,7 @@ ar:
     author:
 
   featured_image:
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/design-research-debrief/design-research-debrief-ar.pdf
 gallery_images:
   - image:

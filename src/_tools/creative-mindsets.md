@@ -19,7 +19,7 @@ en:
       about the problems we face, our situation would be much better
     author: Shaimaa
   featured_image: /img/creative-mindsets/creative-mindsets-en.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document: /downloads/tools/creative-mindsets/creative-mindsets-tool-en.png
 ar:
   name: العقليّات المبتكرة
@@ -34,7 +34,7 @@ ar:
       فعلًا، لو كل شخص شعر بالملكية تجاه مشاكلنا متأكدة ما حيكون الوضع هيك
     author: شيماء
   featured_image: /img/creative-mindsets/creative-mindsets-ar.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document:
 gallery_images:
   - image: /img/creative-mindsets/IMG_4513_p16.jpg

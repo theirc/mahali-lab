@@ -23,7 +23,7 @@ en:
     author: Nebras
   featured_image: >-
     /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality-en.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document: >-
     /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-en.pdf
 ar:
@@ -43,7 +43,7 @@ ar:
     author: نبراس
   featured_image: >-
     /img/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document: >-
     /downloads/tools/current-reality-vs-desired-reality/current-reality-vs-desired-reality-ar.pdf
 gallery_images:

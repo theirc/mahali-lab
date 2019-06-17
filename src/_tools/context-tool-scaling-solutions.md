@@ -15,7 +15,7 @@ en:
     author: Ehab
   featured_image: >-
     /img/context-tool-scaling-solutions/context-tool-scaling-solutions-example-en.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document: >-
     /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-en.pdf
 ar:
@@ -30,7 +30,7 @@ ar:
     author: إيهاب
   featured_image: >-
     /img/context-tool-scaling-solutions/context-tool-scaling-solutions-example-ar.jpg
-  featured_video_url:
+  featured_video_id:
   tool_document: >-
     /downloads/tools/context-tool-scaling-solutions/context-tool-scaling-solutions-ar.pdf
 gallery_images:
