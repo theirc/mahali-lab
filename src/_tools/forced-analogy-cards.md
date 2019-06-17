@@ -11,6 +11,7 @@ en:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 ar:
   name: بطاقات التشبيه
@@ -20,6 +21,7 @@ ar:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/forced-analogy-cards/forced-analogy-cards.pdf
 gallery_images:
   - image:

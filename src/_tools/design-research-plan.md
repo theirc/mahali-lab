@@ -12,6 +12,7 @@ en:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/design-research-plan/design-research-plan-en.pdf
 ar:
   name: خطة البحث التصميمي
@@ -21,6 +22,7 @@ ar:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/design-research-plan/design-research-plan-ar.pdf
 gallery_images:
   - image:

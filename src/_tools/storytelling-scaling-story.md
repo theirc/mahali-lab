@@ -15,6 +15,7 @@ en:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document: >-
     /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
 ar:
@@ -28,6 +29,7 @@ ar:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document: >-
     /downloads/tools/storytelling-scaling-story/storytelling-scaling-story-en.pdf
 gallery_images:

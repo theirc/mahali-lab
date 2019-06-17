@@ -15,6 +15,7 @@ en:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/idea-share-out/idea-share-out-en.pdf
 ar:
   name: مشاركة الفكرة
@@ -27,6 +28,7 @@ ar:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/idea-share-out/idea-share-out-ar.pdf
 gallery_images:
   - image:

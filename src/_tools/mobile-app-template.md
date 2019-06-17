@@ -12,6 +12,7 @@ en:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/mobile-app-template/mobile-app-template-en.pdf
 ar:
   name: قالب تطبيق هاتفي
@@ -21,6 +22,7 @@ ar:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/mobile-app-template/mobile-app-template-ar.pdf
 gallery_images:
   - image:

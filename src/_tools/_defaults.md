@@ -12,6 +12,7 @@ en:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document:
 ar:
   name:
@@ -20,6 +21,7 @@ ar:
     quote:
     author:
   featured_image:
+  featured_video_url:
   tool_document:
 gallery:
   - image:

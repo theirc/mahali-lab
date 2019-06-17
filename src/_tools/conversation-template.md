@@ -12,6 +12,7 @@ en:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/conversation-template/conversation-template-en.pdf
 ar:
   name: قالب محادثة شخصية
@@ -21,6 +22,7 @@ ar:
     author:
 
   featured_image:
+  featured_video_url:
   tool_document: /downloads/tools/conversation-template/conversation-template-ar.pdf
 gallery_images:
   - image:
