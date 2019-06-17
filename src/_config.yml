@@ -51,6 +51,10 @@ _options:
     hidden: true
   namespace:
     hidden: true
+  permalink:
+    hidden:
+  permalink_en:
+    hidden:
   some_markdown:
     format: p h1 h2 h3 h4 h5 h6 pre address div
     bold: true
