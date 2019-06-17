@@ -1,7 +1,7 @@
 ---
 case_study: true
 namespace: idea-blender
-permalink: /idea-blender/
+permalink: /tools/idea-blender/
 permalink_en: /tools/idea-blender/
 principle: create-build-and-test
 en:
