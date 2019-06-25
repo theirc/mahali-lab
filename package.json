@@ -15,5 +15,8 @@
   "dependencies": {
     "@cloudcannon/suite": "^2.0.0-rc5",
     "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "axios": ">=0.18.1"
   }
 }
