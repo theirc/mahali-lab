@@ -22,7 +22,7 @@ en:
       met people where they are.
     author: Najah
   featured_image: /img/transforming-neighborhood-environments/image1.jpg
-  featured_video_id:
+  featured_video_id: lcoADeZaIko
   tool_document: >-
     /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-en.pdf
 ar:
@@ -41,7 +41,7 @@ ar:
       المتوفرة حولي وإيجاد حل يتوافق مع الناس حيثما كانوا
     author: نجاح
   featured_image: /img/transforming-neighborhood-environments/image16.jpg
-  featured_video_id:
+  featured_video_id: lcoADeZaIko
   tool_document: >-
     /downloads/tools/transforming-neighborhood-environments/transforming-neighborhood-environments-ar.pdf
 gallery_images:

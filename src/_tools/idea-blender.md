@@ -15,7 +15,7 @@ en:
       multiple solutions allows you to look into things more widely.
     author: Ahmad
   featured_image: /uploads/idea-blender-en-example.jpg
-  featured_video_id:
+  featured_video_id: 2bO9jSg27I0
   tool_document: /uploads/idea-blender-en.pdf
 ar:
   name: خلّاط الأفكار
@@ -28,7 +28,7 @@ ar:
       يسمح لك بالنظر إلى الأمور من زاوية أوسع
     author: أحمد نوح
   featured_image: /uploads/idea-blender-example-ar.jpg
-  featured_video_id:
+  featured_video_id: 2bO9jSg27I0
   tool_document: /uploads/idea-blender-ar.pdf
 gallery_images:
   - image: /uploads/dsc-1472.jpeg
