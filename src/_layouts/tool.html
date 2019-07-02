@@ -88,15 +88,11 @@ layout: default
       <div class="row justify-content-center">
         <div class="col-lg-4">
           <div class="text-center">
-            {% if tool.featured_image %}
-            <a href="{{ tool.tool_document }}">
-              <img src="{{ tool.featured_image }}" class="img-fluid mb-4" alt="{{ tool.name }} image" />
-            </a>
-            {% endif %}
             <a href="{{ tool.tool_document }}" class="btn btn-primary btn-block mb-4">{% t cta.download_tool %}</a>
           </div>
         </div>
       </div>
+      <hr>
       <div class="row justify-content-center">
         <div class="col-lg-8">
           {% tf what-how %}
