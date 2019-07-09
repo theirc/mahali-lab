@@ -2,7 +2,7 @@
 layout: default
 title: Community Tools
 
-namespace: community-tools
+namespace: community-innovation
 
 permalink: /
 permalink_en: /
@@ -15,7 +15,7 @@ permalink_en: /
       <div class="col-12 col-lg-8 mx-lg-auto">
         <div class="content">
           <div class="p-5 bg-light-opacity">
-            {% translate_file community-tools/intro.html %}
+            {% translate_file community-innovation/intro.html %}
           </div>
         </div>
       </div>
@@ -24,7 +24,33 @@ permalink_en: /
 </section>
 
 <section class="bg-light">
-  <div class="container overlap-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          <img src="https://via.placeholder.com/1200x900/000/222?text=placeholder" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-lg-auto">
+        <div class="content">
+          <div class="p-4">
+            {% translate_file community-innovation/communities.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light">
+  <div class="container">
     <div class="card-deck card-deck-25">
       {% assign principles = site.principles | sort: '_order_number' %}
       {% for principle in principles  %}
@@ -53,20 +79,6 @@ permalink_en: /
         </div>
       </div>
       {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8 mx-lg-auto">
-        <div class="content">
-          <div class="p-4 bg-light-opacity">
-            {% translate_file community-tools/communities.html %}
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>

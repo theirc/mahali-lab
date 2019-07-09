@@ -1,5 +1,5 @@
 global:
-  title: Design & Social Innovation in the middle east
+  title: Mahali Lab
   arabic: عربى
 langs:
   ar: "Arabic"
@@ -17,7 +17,7 @@ cta:
   download_tool: Download Tool
   find_tools: Find Tools
 topnav:
-  tools_link: Community Tools
+  tools_link: Community Innovation
   design_for_impact_link: Design for Impact
   language_selection: "Language Selector"
 footer:
