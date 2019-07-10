@@ -2,8 +2,87 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"
   defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.5/venobox.min.js" crossorigin="anonymous" defer></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"
   defer></script>
 <!-- main js file-->
 <!-- <script src="{{'/assets/js/main.js' | prepend: site.url }}" defer></script> -->
+
+<script type="text/babel">
+  class VideoPlayer extends React.Component {
+      constructor() {
+        super();
+        this.updateVideo = this.updateVideo.bind(this);
+        this.state = {
+          currentVideo: 'https://www.youtube.com/embed/7BA7FXqKOEs'
+        }
+        
+      }
+      updateVideo(e) {
+        let vid = e.target.dataset.video;
+        console.log('clicked', vid);
+        this.setState({ currentVideo: vid});
+      }
+      render() {
+          return (
+            <div>
+              <div id="video-player">
+                <div className="video-title bg-dark text-white">Video Title</div>
+                <iframe src={ this.state.currentVideo }></iframe>
+              </div>
+
+              <div id="carousel-video-thumbs" className="carousel slide" data-ride="carousel" data-interval="false">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className="video-nav">
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/-a8aeR4obaQ'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="video-nav">
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/-a8aeR4obaQ'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="video-nav">
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/-a8aeR4obaQ'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/swYO3MxZ2pM'/>
+                      <button className="video-thumbnail" onClick={this.updateVideo} data-video='https://www.youtube.com/embed/mbqL5LP86vo'/>
+                    </div>
+                  </div>
+                </div>
+                <a className="carousel-control-prev" href="#carousel-video-thumbs" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carousel-video-thumbs" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+              <div className="bg-primary text-dark text-center">
+                <a href="#" className="btn btn-related-tool">Feedback Debrief - View Tool</a>
+              </div>
+   
+            </div>
+        )    
+      }
+  }
+  ReactDOM.render(
+      <VideoPlayer />,
+      document.getElementById('root')
+  );
+</script>

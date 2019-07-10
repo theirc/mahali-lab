@@ -1,0 +1,12 @@
+- title: video 1
+  embed_url: 'https://www.youtube.com/embed/swYO3MxZ2pM'
+  image:
+  tool: brainstorming-cards
+- title: video 2
+  embed_url: 'https://www.youtube.com/embed/mbqL5LP86vo'
+  image:
+  tool: context-tool-problem-definition
+- title: video 3
+  embed_url: 'https://www.youtube.com/embed/-a8aeR4obaQ'
+  image:
+  tool: context-tool-scaling-solutions
