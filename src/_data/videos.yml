@@ -1,12 +1,47 @@
-- title: video 1
-  embed_url: 'https://www.youtube.com/embed/swYO3MxZ2pM'
-  image:
-  tool: brainstorming-cards
-- title: video 2
-  embed_url: 'https://www.youtube.com/embed/mbqL5LP86vo'
-  image:
+- title_ar: 
+  title_en: 'Medicine Bank - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/GlfqhwewyfE'
+  image: /uploads/mahali-lab-at-the-irc.png
+  tool: feedback-debrief
+- title_ar:
+  title_en: 'Martha - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/fXiiwycwCIU'
+  image: /uploads/martha.png
   tool: context-tool-problem-definition
-- title: video 3
-  embed_url: 'https://www.youtube.com/embed/-a8aeR4obaQ'
-  image:
-  tool: context-tool-scaling-solutions
+- title_ar:
+  title_en: 'Ajyal - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/xHdvzYSotlg'
+  image: /uploads/ajyal.png
+  tool:
+- title_ar:
+  title_en: 'Alpha - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/UXu7tR2i2so'
+  image: /uploads/alpha.png
+  tool:
+- title_ar:
+  title_en: 'Baitna - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/2bO9jSg27I0'
+  image: /uploads/baitna.png
+  tool: idea-blender
+- title_ar:
+  title_en: 'Basma - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/lcoADeZaIko'
+  image: /uploads/basma.png
+  tool: transforming-neighborhood-environments
+- title_ar:
+  title_en: 'Shababeek - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/HwptQyd8yx4'
+  image: /uploads/shababeek.png
+  tool:
+- title_ar:
+  title_en: 'Twig - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/eOjVQ0Rb9Zo'
+  image: /uploads/twig.png
+  tool:
+- title_ar:
+  title_en: 'Education: Challenge Framing Even - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/SLRB83NlTEo'
+  image: /uploads/education.png
+  tool:   
+
+
