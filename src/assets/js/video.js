@@ -103,7 +103,7 @@ var VideoPlayer = function (_React$Component) {
         React.createElement(
           'div',
           { className: 'bg-primary text-dark text-center' },
-          React.createElement(
+          currentVideo.tool_url && React.createElement(
             'a',
             { href: currentVideo.tool_url, className: 'btn btn-related-tool' },
             currentVideo.tool_title
