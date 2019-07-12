@@ -21,7 +21,7 @@ topnav:
   design_for_impact_link: Design for Impact
   language_selection: "Language Selector"
 footer:
-  description: This project was developed by the <a href="https://airbel.rescue.org/" target="_blank">International Rescue Committee</a>, funded with support from the U.K. Department for International Development (DFID), and in partnership with the Start network.
+  description: This project was developed by the <a href="https://airbel.rescue.org/" target="_blank" rel="noopener">International Rescue Committee</a>, funded with support from the U.K. Department for International Development (DFID), and in partnership with the Start network.
   form_title: Contact
   email_label: Email
   message_label:  Message

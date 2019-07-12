@@ -22,7 +22,7 @@ topnav:
   design_for_impact_link: التصميم من أجل الكرامة
   language_selection: "اختيار اللغة"
 footer:
-  description: طوّر هذا المشروع من قبل <a href="https://airbel.rescue.org/" target="_blank"> اللجنة الدولية للإغاثة</a> (IRC)، وموّل بدعم من وزارة التنمية الدولية في المملكة المتحدة (DFID)، وبالتعاون مع شبكة ستارت (Start).
+  description: طوّر هذا المشروع من قبل <a href="https://airbel.rescue.org/" target="_blank" rel="noopener"> اللجنة الدولية للإغاثة</a> (IRC)، وموّل بدعم من وزارة التنمية الدولية في المملكة المتحدة (DFID)، وبالتعاون مع شبكة ستارت (Start).
   form_title: اتصل بنا
   email_label: عنوان البريد الإلكتروني
   message_label: الرسالة

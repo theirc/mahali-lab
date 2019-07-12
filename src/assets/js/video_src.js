@@ -35,7 +35,7 @@ class VideoPlayer extends React.Component {
           {currentVideo.title}
         </div>
         <div className="container-4x3">
-          <iframe src={currentVideo.url} />
+          <iframe src={currentVideo.url} title="Video Player" />
         </div>
 
         <div className="carousel">
