@@ -69,7 +69,7 @@
   padding: 0;
   position: relative;
   transform: translateX(25%);
-  // transition: transform 0.5s ease-in-out;
+  transition: transform 1s ease-in-out;
   @include media-breakpoint-down(md) {
     left: -33.33333%;
     transform: translateX(33.33333%);
@@ -79,7 +79,6 @@
 
 .video-thumbs.is-reversing {
   transform: translateX(-25%);
-  // transition: transform 0.5s ease-in-out;
   @include media-breakpoint-down(md) {
     transform: translateX(-33.33333%);
   }
@@ -88,7 +87,6 @@
 
 .video-thumbs.is-set {
   transform: translateX(0);
-  // transition: transform 0.5s ease-in-out;
 }
 
 .video-thumb {
