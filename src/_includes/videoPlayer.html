@@ -1,0 +1,73 @@
+<script>
+  $(document).ready(function () {
+    var $carousel = $('.video-thumbs');
+    var $seats = $('.video-thumb');
+
+    $('.video-nav').on('click', function (e) {
+      var $newSeat;
+      var $el = $('.active');
+      var $currSliderControl = $(e.currentTarget);
+
+      $el.removeClass('active');
+      if ($currSliderControl.data('direction') === 'next') {
+        $newSeat = next($el);
+        $carousel.removeClass('is-reversing');
+      } else {
+        $newSeat = prev($el);
+        $carousel.addClass('is-reversing');
+      }
+
+      $newSeat.addClass('active').css('order', 1);
+      for (var i = 2; i <= $seats.length; i++) {
+        $newSeat = next($newSeat).css('order', i);
+      }
+
+      $carousel.removeClass('is-set');
+      return setTimeout(function () {
+        return $carousel.addClass('is-set');
+      }, 50);
+
+      function next($el) {
+        if ($el.next().length) {
+          return $el.next();
+        } else {
+          return $seats.first();
+        }
+      }
+
+      function prev($el) {
+        if ($el.prev().length) {
+          return $el.prev();
+        } else {
+          return $seats.last();
+        }
+      }
+    });
+  });
+</script>
+
+<script>
+  var videos = [
+    {% for video in site.data.videos %}
+      {% assign tool = site.tools | where: 'slug', video.tool | first %}
+      {% case site.lang %}
+      {% when 'en' %}
+      {% assign translation = tool.en %}
+      {% assign video_title = video.title_en %}
+      {% when 'ar' %}
+      {% assign translation = tool.ar %}
+      {% assign video_title = video.title_ar %}
+      {% endcase %}
+      {
+        title: "{{ video_title | default: 'Video' }}",
+        url: "{{ video.embed_url }}",
+        image: "{{ video.image }}",
+        tool_title: "{{ translation.name }} - {% translate cta.view_tool %}",
+        tool_url: "{% tl tool.namespace %}",
+        id: "{{ forloop.index}}"
+      }{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  ]
+</script>
+
+<script src="{{'/assets/js/video.js' | prepend: site.url }}" defer></script>

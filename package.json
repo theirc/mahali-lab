@@ -8,7 +8,8 @@
     "url": ""
   },
   "scripts": {
-    "start": "gulp dev"
+    "start": "gulp dev",
+    "build": "babel src -d lib"
   },
   "author": "Ocupop",
   "license": "MIT",
@@ -17,6 +18,8 @@
     "gulp": "^4.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
     "axios": ">=0.18.1"
   }
 }
