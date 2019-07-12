@@ -5,9 +5,9 @@ baseurl: ""
 permalink: pretty
 
 # Social sharing
-description:
+description: 'The Mahali Lab works with Syrian refugees and socially and economically vulnerable community members to identify and solve challenges posed by long-term displacement'
 socialshare:
-  featured_image: assets/img/socialshare.png
+  featured_image: /img/social-share.jpg
   twitter:
     username:
     image:
