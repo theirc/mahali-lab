@@ -1,0 +1,22 @@
+{% assign translated_title = 'Welcome' %}
+{% case page.layout %}
+  {% when 'tool' %}
+    {% if site.lang == 'en' %}
+      {% assign translated_title = page.en.name %}
+    {% else %}
+      {% assign translated_title = page.ar.name %}
+    {% endif %}
+  {% when 'principle' %}
+    {% if site.lang == 'en' %}
+      {% assign translated_title = page.en.name %}
+    {% else %}
+      {% assign translated_title = page.ar.name %}
+    {% endif %}
+  {% else %}
+    {% if site.lang == 'en' %}
+      {% assign translated_title = page.title %}
+    {% else %}
+      {% assign translated_title = page.title_ar %}
+    {% endif %}
+{% endcase %}
+{{ translated_title }} | {% t global.title %}

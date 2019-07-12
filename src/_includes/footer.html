@@ -11,13 +11,13 @@
         <div class="content">
           <h3><strong>{% translate footer.form_title %}</strong></h3>
           <form method="post" action="/success.html">
-            <input type="hidden" name="_to" value="jon@ocupop.com">
+            <input type="hidden" name="_to" value="dev@ocupop.com">
             <div class="form-group">
-              <label>{% translate footer.email_label %}</label>
+              <label for="email">{% translate footer.email_label %}</label>
               <input type="text" name="email" class="form-control">
             </div>
             <div class="form-group">
-              <label>{% translate footer.message_label %}</label>
+              <label for="message">{% translate footer.message_label %}</label>
               <textarea name="message" class="form-control"></textarea>
             </div>
             <input type="text" name="_gotcha" style="display: none;">
