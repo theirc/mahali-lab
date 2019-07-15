@@ -1,3 +1,13 @@
 #page-footer {
   padding: 50px 0;
 }
+
+#form-confirmation {
+  opacity: 0;
+  height: 0;
+  @include transition(.5s);
+  &.active {
+    height: auto;
+    opacity: 1;
+  }
+}

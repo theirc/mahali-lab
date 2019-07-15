@@ -10,8 +10,11 @@
       <div class="col-lg-6">
         <div class="content">
           <h3><strong>{% translate footer.form_title %}</strong></h3>
-          <form method="post" action="/success.html">
-            <input type="hidden" name="_to" value="dev@ocupop.com">
+          <div id="form-confirmation">
+            {% translate footer.confirmation_message %}
+          </div>
+          <form id="contact-form" method="post" action="/success.html">
+            <input type="hidden" name="_to" value="jon@ocupop.com">
             <div class="form-group">
               <label for="email_field">{% translate footer.email_label %}</label>
               <input type="text" name="email" id="email_field" class="form-control">
