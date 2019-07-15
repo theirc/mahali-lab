@@ -29,7 +29,9 @@
     // Override the submit event
     formEl.addEventListener("submit", function (e) {
       e.preventDefault();
-
+      console.log('form submit success');
+      $('#form-confirmation').addClass('active');
+      $('#contact-form').removeClass('active');
       // if (grecaptcha) {
       //   var recaptchaResponse = grecaptcha.getResponse();
       //   if (!recaptchaResponse) { // reCAPTCHA not clicked yet
@@ -42,9 +44,7 @@
       request.addEventListener("load", function () {
         if (request.status === 302) { // CloudCannon redirects on success
           // It worked
-          console.log('form submit success');
-          $('#form-confirmation').addClass('active');
-          $('#contact-form').removeClass('active');
+          
         }
       });
 
