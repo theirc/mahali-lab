@@ -4,11 +4,11 @@
 
 #contact-form {
   height: 0;
-  opacity: 1;
+  opacity: 0;
   @include transition(0.5s);
   &.active {
     height: auto;
-    opacity: 0;
+    opacity: 1;
   }
 }
 
