@@ -2,6 +2,16 @@
   padding: 50px 0;
 }
 
+#contact-form {
+  height: 0;
+  opacity: 1;
+  @include transition(0.5s);
+  &.active {
+    height: auto;
+    opacity: 0;
+  }
+}
+
 #form-confirmation {
   opacity: 0;
   height: 0;
