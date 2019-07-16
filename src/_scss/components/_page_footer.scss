@@ -1,3 +1,26 @@
 #page-footer {
   padding: 50px 0;
+  a {
+    color: $primary;
+  }
+}
+
+#contact-form {
+  height: 0;
+  opacity: 0;
+  @include transition(0.5s);
+  &.active {
+    height: auto;
+    opacity: 1;
+  }
+}
+
+#form-confirmation {
+  opacity: 0;
+  height: 0;
+  @include transition(.5s);
+  &.active {
+    height: auto;
+    opacity: 1;
+  }
 }
