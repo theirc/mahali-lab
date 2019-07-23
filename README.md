@@ -1,4 +1,4 @@
-# arabic-design-tool #
+# Mahali Lab #
 
 This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cloudcannon, but it is possible to reconfigure for Firebase or GithubPages hosting.
 
