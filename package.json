@@ -1,15 +1,14 @@
 {
-  "name": "arabic-design-tool",
+  "name": "mahali-lab",
   "version": "0.3.0",
-  "description": "Project description...",
+  "description": "The Mahali Lab works with Syrian refugees and socially and economically vulnerable community members to identify and solve challenges posed by long-term displacement",
   "private": true,
   "repository": {
     "type": "git",
     "url": ""
   },
   "scripts": {
-    "start": "gulp dev",
-    "build": "babel src -d lib"
+    "start": "gulp dev"
   },
   "author": "Ocupop",
   "license": "MIT",
