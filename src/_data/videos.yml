@@ -1,40 +1,40 @@
-- title_ar: 
-  title_en: 'Medicine Bank - Mahali Lab at the IRC'
+- title_ar:
+  title_en: Medicine Bank - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/GlfqhwewyfE'
   image: /uploads/mahali-lab-at-the-irc.jpg
   tool: feedback-debrief
 - title_ar:
-  title_en: 'Martha - Mahali Lab at the IRC'
+  title_en: Martha - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/fXiiwycwCIU'
   image: /uploads/martha.jpg
   tool: context-tool-problem-definition
 - title_ar:
-  title_en: 'Ajyal - Mahali Lab at the IRC'
+  title_en: Ajyal - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/xHdvzYSotlg'
   image: /uploads/ajyal.jpg
   tool:
 - title_ar:
-  title_en: 'Alpha - Mahali Lab at the IRC'
+  title_en: Alpha - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/UXu7tR2i2so'
   image: /uploads/alpha.jpg
   tool:
 - title_ar:
-  title_en: 'Baitna - Mahali Lab at the IRC'
+  title_en: Baitna - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/2bO9jSg27I0'
   image: /uploads/baitna.jpg
   tool: idea-blender
 - title_ar:
-  title_en: 'Basma - Mahali Lab at the IRC'
+  title_en: Basma - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/lcoADeZaIko'
   image: /uploads/basma.jpg
   tool: transforming-neighborhood-environments
 - title_ar:
-  title_en: 'Shababeek - Mahali Lab at the IRC'
+  title_en: Shababeek - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/HwptQyd8yx4'
   image: /uploads/shababeek.jpg
   tool:
 - title_ar:
-  title_en: 'Twig - Mahali Lab at the IRC'
+  title_en: Twig - Mahali Lab at the IRC
   embed_url: 'https://www.youtube.com/embed/eOjVQ0Rb9Zo'
   image: /uploads/twig.jpg
   tool:
@@ -42,6 +42,9 @@
   title_en: 'Education: Challenge Framing Even - Mahali Lab at the IRC'
   embed_url: 'https://www.youtube.com/embed/SLRB83NlTEo'
   image: /uploads/education.jpg
-  tool:   
-
-
+  tool:
+- title_ar:
+  title_en: 'Martha #2 - Mahali Lab at the IRC'
+  embed_url: 'https://www.youtube.com/embed/TRNHHPsipSE'
+  image: /uploads/screen-shot-2019-07-25-at-10-33-47-am.png
+  tool:
